@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1ngxp61" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="16.3.2">
+  <bpmn:collaboration id="Collaboration_1xv90cl">
+    <bpmn:participant id="Participant_0wqy8a5" name="Gestão das Aquisições na SEINF" processRef="Process_0khwrq6" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_0khwrq6" isExecutable="false">
+    <bpmn:startEvent id="StartEvent_1woloi8" name="PACONT 2024 Preliminar Elaborado">
+      <bpmn:outgoing>Flow_0v5lhkc</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Activity_0i56f0n" name="Realizar Procedimentos de Planejamento das Aquisições">
+      <bpmn:incoming>Flow_0v5lhkc</bpmn:incoming>
+      <bpmn:outgoing>Flow_04m6di0</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Activity_1684swx" name="Elaborar Docs. de Planejamento das Aquisições">
+      <bpmn:incoming>Flow_04m6di0</bpmn:incoming>
+      <bpmn:outgoing>Flow_0ttx1ni</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Activity_1tq8tef" name="Monitorar e Controlar Aquisições">
+      <bpmn:incoming>Flow_0ttx1ni</bpmn:incoming>
+      <bpmn:outgoing>Flow_0klv5u2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Activity_0i4gm37" name="Apoiar Fase Externa das Aquisições">
+      <bpmn:incoming>Flow_0klv5u2</bpmn:incoming>
+      <bpmn:outgoing>Flow_1sln1tf</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="Event_0fu47qq" name="Aquisições da SEINF Homologadas">
+      <bpmn:incoming>Flow_1sln1tf</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_0v5lhkc" sourceRef="StartEvent_1woloi8" targetRef="Activity_0i56f0n" />
+    <bpmn:sequenceFlow id="Flow_04m6di0" sourceRef="Activity_0i56f0n" targetRef="Activity_1684swx" />
+    <bpmn:sequenceFlow id="Flow_0ttx1ni" sourceRef="Activity_1684swx" targetRef="Activity_1tq8tef" />
+    <bpmn:sequenceFlow id="Flow_0klv5u2" sourceRef="Activity_1tq8tef" targetRef="Activity_0i4gm37" />
+    <bpmn:sequenceFlow id="Flow_1sln1tf" sourceRef="Activity_0i4gm37" targetRef="Event_0fu47qq" />
+    <bpmn:textAnnotation id="TextAnnotation_0v0kawy">
+      <bpmn:text>1) Iniciar processo de monitoramento das aquisições;
+2) Iniciar processos específicos p/ cada aquisição</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id="TextAnnotation_1do99pm">
+      <bpmn:text>3) Elaborar, identificar objetos similares e apresentar DFDs a COINF;
+4) Elaborar ETP, TR e Plan. Gestão de Riscos;
+5) apresentar e homologar Docs. de plan. das contratações;
+6) Aprovar docs. plan. contratações;</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id="TextAnnotation_0w6e8ta">
+      <bpmn:text>7) Impulsionar processos de Aquisições;
+8) Ajustar e resolver pendências nos processos da fase INTERNA da aquisições;
+9) Apresentar monitoramento quinzenal a COINF;</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:textAnnotation id="TextAnnotation_1ki417v">
+      <bpmn:text>10) Responder solicitações de informações sobre as aquisições;
+11) Responder a pedidos de impugnação do edital;
+12) Promover ajustes e resolver pendências da fase EXTERNA das aquisições</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:association id="Association_0p86zil" associationDirection="None" sourceRef="Activity_0i56f0n" targetRef="TextAnnotation_0v0kawy" />
+    <bpmn:association id="Association_1o7rrl7" associationDirection="None" sourceRef="Activity_1684swx" targetRef="TextAnnotation_1do99pm" />
+    <bpmn:association id="Association_1i0ud0r" associationDirection="None" sourceRef="Activity_1tq8tef" targetRef="TextAnnotation_0w6e8ta" />
+    <bpmn:association id="Association_0edecsp" associationDirection="None" sourceRef="Activity_0i4gm37" targetRef="TextAnnotation_1ki417v" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1xv90cl">
+      <bpmndi:BPMNShape id="Participant_0wqy8a5_di" bpmnElement="Participant_0wqy8a5" isHorizontal="true">
+        <dc:Bounds x="156" y="80" width="994" height="350" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1sln1tf_di" bpmnElement="Flow_1sln1tf">
+        <di:waypoint x="880" y="260" />
+        <di:waypoint x="942" y="260" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0klv5u2_di" bpmnElement="Flow_0klv5u2">
+        <di:waypoint x="720" y="260" />
+        <di:waypoint x="780" y="260" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0ttx1ni_di" bpmnElement="Flow_0ttx1ni">
+        <di:waypoint x="560" y="260" />
+        <di:waypoint x="620" y="260" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_04m6di0_di" bpmnElement="Flow_04m6di0">
+        <di:waypoint x="400" y="260" />
+        <di:waypoint x="460" y="260" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0v5lhkc_di" bpmnElement="Flow_0v5lhkc">
+        <di:waypoint x="242" y="260" />
+        <di:waypoint x="300" y="260" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1woloi8">
+        <dc:Bounds x="206" y="242" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="188" y="206" width="74" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0i56f0n_di" bpmnElement="Activity_0i56f0n">
+        <dc:Bounds x="300" y="220" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1684swx_di" bpmnElement="Activity_1684swx">
+        <dc:Bounds x="460" y="220" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1tq8tef_di" bpmnElement="Activity_1tq8tef">
+        <dc:Bounds x="620" y="220" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0i4gm37_di" bpmnElement="Activity_0i4gm37">
+        <dc:Bounds x="780" y="220" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0fu47qq_di" bpmnElement="Event_0fu47qq">
+        <dc:Bounds x="942" y="242" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="925" y="285" width="70" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_0v0kawy_di" bpmnElement="TextAnnotation_0v0kawy">
+        <dc:Bounds x="220" y="340" width="320" height="41" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_1do99pm_di" bpmnElement="TextAnnotation_1do99pm">
+        <dc:Bounds x="480" y="120" width="360" height="84" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_0w6e8ta_di" bpmnElement="TextAnnotation_0w6e8ta">
+        <dc:Bounds x="620" y="333" width="300" height="70" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="TextAnnotation_1ki417v_di" bpmnElement="TextAnnotation_1ki417v">
+        <dc:Bounds x="855" y="106" width="270" height="98" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_0p86zil_di" bpmnElement="Association_0p86zil">
+        <di:waypoint x="316" y="300" />
+        <di:waypoint x="283" y="340" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_1o7rrl7_di" bpmnElement="Association_1o7rrl7">
+        <di:waypoint x="516" y="220" />
+        <di:waypoint x="519" y="204" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_1i0ud0r_di" bpmnElement="Association_1i0ud0r">
+        <di:waypoint x="670" y="300" />
+        <di:waypoint x="670" y="333" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_0edecsp_di" bpmnElement="Association_0edecsp">
+        <di:waypoint x="852" y="220" />
+        <di:waypoint x="860" y="204" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

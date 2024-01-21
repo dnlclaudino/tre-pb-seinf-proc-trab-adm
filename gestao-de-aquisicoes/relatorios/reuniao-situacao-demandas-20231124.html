@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>reuniao-situacao-demandas-20231124.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="reuni%C3%A3o-de-situa%C3%A7%C3%A3o">Reunião de Situação</h1>
+<h1 id="data-hor%C3%A1rio-e-local">Data, horário e local</h1>
+<ul>
+<li><strong>Data da reunião</strong>: 24/11/2023, sexta-feira;</li>
+<li><strong>Duração aproximada</strong>: 20 minutos;</li>
+<li><strong>Horário</strong>: 13:00h;</li>
+<li><strong>Local</strong>: Sala da COINF</li>
+</ul>
+<h1 id="pauta-da-reuni%C3%A3o">Pauta da Reunião</h1>
+<ul>
+<li>Demandas de Levantamento de Necessidades (0);</li>
+<li>Demandas de Levantamento de Problemas (0);</li>
+<li>Demandas de Orçamento (0);</li>
+<li>Demandas de Aquisições (0);</li>
+<li>Demandas de Adesão à Ata de Registro de Preço (0);</li>
+<li>Demandas de Gestão de Ata de Registro de Preço (0);</li>
+<li>Demandas de Fiscalização de Contratos (0);</li>
+<li><strong>Demandas de Gestão de Contratos (06);</strong>
+<ul>
+<li>Levantar a situação dos processos de Pagamento na unidade SEINF;</li>
+</ul>
+</li>
+<li>Demandas de Gestão de Projetos / Planos de Ação (0);</li>
+</ul>
+<h1 id="processos-sei-ainda-n%C3%A3o-analizados">Processos SEI ainda não analizados</h1>
+<ul>
+<li><a href="https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&amp;id_procedimento=1121819">0007768-75.2021.6.15.8000</a>: Renovação das subscrições Red Hat (licenciamento de softwares) (Ata 61/22 + Contrato)</li>
+</ul>
+<h1 id="situa%C3%A7%C3%A3o">Situação</h1>
+<p>A(s) demanda(s) abaixo necessita(m) ser(em) analisada(s) pela <strong>CHEFIA/COORDENADORIA</strong>, para que seja(m) adequadamente direcionada(s) e priorizad(s) adequadamente:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">#</th>
+<th style="text-align:left">Origem Demanda</th>
+<th style="text-align:left">Fonte Demanda</th>
+<th style="text-align:left">De quê se trata ?</th>
+<th style="text-align:left">Existe PRAZO<br>na Demanda</th>
+<th style="text-align:left">O que FOI FEITO? <br><br>O que PRECISA SER DEFINIDO/FALTA FAZER ?</th>
+<th style="text-align:left">Até quando ?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:left"><a href="https://trello.com/b/7Q7wFAFF/1-necessidades-e-problemas-seinf">Quadro Necessidades e Problemas</a>, Lista &quot;Gestão de Contratos e ARPs&quot;</td>
+<td style="text-align:left">Processo SEI nº 0007008-92.2022.6.15.8000</td>
+<td style="text-align:left">COBRAR NOTA FISCAL, APROPRIAR e PAGAR item &quot;LICENÇAS VEEM&quot;<br>VERIFICAR (1) ENTREGA ATRASADA, (2) ATESTE ATRASADO e/ou (3) PAGAMENTO ATRASADO</td>
+<td style="text-align:left">Prazo de Pagamento do Contrato nº 27/2023 (Doc. SEI nº 1608213)</td>
+<td style="text-align:left">- FEITO: NÃO ENCONTREI a nota fiscal nem no PROCESSO nem no E-MAIL DA SEINF<br>- PRECISA SER DEFINIDO: Na segunda-feira (27/11/2023), falar com Pedro/SEINF para saber: (a) Se ele recebeu a nota no e-mail funcional dele ou (b)Se será preciso mandar e-mail para a empresa cobrando a nota fiscal</td>
+<td style="text-align:left">Definir segunda, 27/11/2023 com Pedro/SEINF</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:left"><a href="https://trello.com/b/7Q7wFAFF/1-necessidades-e-problemas-seinf">Quadro Necessidades e Problemas</a>, Lista &quot;Gestão de Contratos e ARPs&quot;</td>
+<td style="text-align:left">Processo SEI nº 0007008-92.2022.6.15.8000</td>
+<td style="text-align:left">- COBRAR NOTA FISCAL, APROPRIAR e PAGAR item &quot;Banco de Horas Técnicas (atendimento remoto)&quot;<br>- VERIFICAR (1) ENTREGA ATRASADA, (2) ATESTE ATRASADO e/ou (3) PAGAMENTO ATRASADO<br>- OBS: Relacionado com Switch ToR redundante</td>
+<td style="text-align:left">Prazo de Pagamento do Contrato nº 22/2023 (Doc. SEI nº 1582479)</td>
+<td style="text-align:left">- FEITO: NÃO ENCONTREI a nota fiscal nem no PROCESSO nem no E-MAIL DA SEINF<br>- PRECISA SER DEFINIDO: Na segunda-feira (27/11/2023), falar com Pedro/SEINF para saber: (a) Se ele recebeu a nota no e-mail funcional dele ou (b)Se será preciso mandar e-mail para a empresa cobrando a nota fiscal</td>
+<td style="text-align:left">Definir segunda, 27/11/2023 com Pedro/SEINF</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:left"><a href="https://trello.com/b/7Q7wFAFF/1-necessidades-e-problemas-seinf">Quadro Necessidades e Problemas</a>, Lista &quot;Gestão de Contratos e ARPs&quot;</td>
+<td style="text-align:left">Processo SEI nº 0003765-43.2022.6.15.8000</td>
+<td style="text-align:left">- Falta APROPRIAR e PAGAR a Nota Fiscal nº 000.000.440 (Doc. SEI nº 1701122)</td>
+<td style="text-align:left">30/11/2023 (10d úteis da data de emissão 16/11/2023)</td>
+<td style="text-align:left">-O QUE FOI FEITO: Foram minutados os documentos para APROPRIAÇÃO e PAGAMENTO<br><br>O QUE FALTA FAZER:-Falta Pedro revisar,assinar e encaminhar o processo para SAO</td>
+<td style="text-align:left">Revisar,assinar e encaminhar documentos ATÉ 27/11/2023 (10d úteis da data de emissão 16/11/2023)</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:left"><a href="https://trello.com/b/5H0yvKyA/2-gest%C3%A3o-de-demandas-na-seinf">Quadro Gestão de Demandas na SEINF</a>, Lista &quot;27 de Novembro/2023 a 01 de Dezembro/2023&quot;</td>
+<td style="text-align:left">Processo SEI nº 0005740-66.2023.6.15.8000</td>
+<td style="text-align:left">- Solicitar PEDIDO DE APROPRIAÇÃO e para PAGAMENTO de BENS DE CONSUMO<br>- Empresa CONTIGO CNPJ: 14.065.989/0001-26<br>- Material: Alicate de crimpar conector RJ45 profissional 8.5&quot; CAT6 ( 6 und. / R$330,00)<br>- NOTA DE EMPENHO nº 2023NE000523 - R$330,00<br></td>
+<td style="text-align:left">DEMANDA BEM ATRASADA PARA PAGAMENTO</td>
+<td style="text-align:left">-O QUE FOI FEITO: Foram minutados os documentos para APROPRIAÇÃO e PAGAMENTO<br><br>O QUE FALTA FAZER:-Falta Pedro revisar,assinar e encaminhar o processo para SAO</td>
+<td style="text-align:left">ATÉ 27/11/2023</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:left"><a href="https://trello.com/b/5H0yvKyA/2-gest%C3%A3o-de-demandas-na-seinf">Quadro Gestão de Demandas na SEINF</a>, Lista &quot;27 de Novembro/2023 a 01 de Dezembro/2023&quot;</td>
+<td style="text-align:left">Processo SEI nº 0008711-24.2023.6.15.8000</td>
+<td style="text-align:left">- Solicitar PEDIDO DE APROPRIAÇÃO e para PAGAMENTO<br>- Telefones VoIP / TELEFONE IP SIP T31P<br>- Phonoway Soluções em Teleinformática</td>
+<td style="text-align:left">DEMANDA BEM ATRASADA</td>
+<td style="text-align:left">O QUE FOI FEITO: - Anexado DECLARACAO SICAF de regularidade fiscal no processo<br><br>- O QUE FALTA FAZER: - Minutar, revisar, assinar e encaminhar documentos para APROPRIAÇÃO e PAGAMENTO</td>
+<td style="text-align:left">ATÉ 27/11/2023</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:left"><a href="https://trello.com/b/5H0yvKyA/2-gest%C3%A3o-de-demandas-na-seinf">Quadro Gestão de Demandas na SEINF</a>, Lista &quot;27 de Novembro/2023 a 01 de Dezembro/2023&quot;</td>
+<td style="text-align:left">Processo SEI nº 0007933-88.2022.6.15.8000</td>
+<td style="text-align:left">- Apropriação e Pagamento Licenciamento Microsoft Windows Datacenter<BR>- Contrato nº 43/2023</td>
+<td style="text-align:left">30/11/2023 (10d úteis da data de emissão 16/11/2023)</td>
+<td style="text-align:left">O QUE FOI FEITO: - Anexada Nota fiscal nº 9226 (1696345)no Processo<br><br>- O QUE FALTA FAZER: - Anexar DECLARACAO SICAF de regularidade fiscal<br>- Minutar, revisar, assinar e encaminhar documentos para APROPRIAÇÃO e PAGAMENTO</td>
+<td style="text-align:left">ATÉ 30/11/2023</td>
+</tr>
+</tbody>
+</table>
+<h1 id="delibera%C3%A7%C3%B5es-e-encaminhamentos">Deliberações e Encaminhamentos</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"># Situação</th>
+<th style="text-align:left">Deliberações e Encaminhamentos</th>
+<th style="text-align:center">Responsável</th>
+<th style="text-align:center">Prazo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:left">-</td>
+<td style="text-align:center">Nome-Responsável</td>
+<td style="text-align:center">Em dd/mm/aaaa<br>- Até dd/mm/aaaa<br>- Entre dd/mm/aaaa e dd/mm/aaaa<br>- Após dd/mm/aaaa</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:left">-</td>
+<td style="text-align:center">Nome-Responsável</td>
+<td style="text-align:center">Em dd/mm/aaaa<br>- Até dd/mm/aaaa<br>- Entre dd/mm/aaaa e dd/mm/aaaa<br>- Após dd/mm/aaaa</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:left">-</td>
+<td style="text-align:center">Nome-Responsável</td>
+<td style="text-align:center">Em dd/mm/aaaa<br>- Até dd/mm/aaaa<br>- Entre dd/mm/aaaa e dd/mm/aaaa<br>- Após dd/mm/aaaa</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:left">-</td>
+<td style="text-align:center">Nome-Responsável</td>
+<td style="text-align:center">Em dd/mm/aaaa<br>- Até dd/mm/aaaa<br>- Entre dd/mm/aaaa e dd/mm/aaaa<br>- Após dd/mm/aaaa</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:left">-</td>
+<td style="text-align:center">Nome-Responsável</td>
+<td style="text-align:center">Em dd/mm/aaaa<br>- Até dd/mm/aaaa<br>- Entre dd/mm/aaaa e dd/mm/aaaa<br>- Após dd/mm/aaaa</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:left">-</td>
+<td style="text-align:center">Nome-Responsável</td>
+<td style="text-align:center">Em dd/mm/aaaa<br>- Até dd/mm/aaaa<br>- Entre dd/mm/aaaa e dd/mm/aaaa<br>- Após dd/mm/aaaa</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>
