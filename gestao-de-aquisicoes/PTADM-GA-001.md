@@ -86,12 +86,14 @@
 
 ### 2.1 Evento Inicial
 
-- **Hipótese #1:**
+Este processo de trabalho é iniciado a partir do **evento inicial #1** OU a partir do **evento inicial #2**.
+
+- **Evento Inicial #1:**
   - **Depois:**
     - Aprovação pelo Comitê de Governança de Contratações do **Plano Anual de Contratações (PACONT)**; e
   - **Antes:**
     - Elaboração da **Proposta de Orçamento** para o ano subsequente ao PACONT (veja <a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art12vii">Lei 14.133/2021, art. 12, VII</a>);
-- **Hipótese #2:**
+- **Evento Inicial #2:**
   - Por determinação da Coordenadoria de Infraestrutura (COINF)
 
 ### 2.2 Resultado
