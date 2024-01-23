@@ -119,7 +119,7 @@
 - [Plano Estratégico Institucional](https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-plano-estrategico-2021-2026/@@download/file/tre-pb-plano-estrategico-2021-2026.pdf) (p. 3)
 - [**Plano Diretor de TIC 2023-2024**](https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-pdtic-2023-2024/@@download/file/TRE_PB_PDTIC_2023_2024_v1.pdf)
   - **PDTIC 2024-2025** no **Processo SEI nº** [0009140-88.2023.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=1731776)
-
+- [Planilha de Controle/Aba Plano de Contratações](https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w)
 
 ### 2.5 Clientes
 
@@ -132,6 +132,7 @@
 
 - Documento de abertura e apresentação do processo de gestão das aquisições (licitações e/ou contratações diretas);
 - Processos SEI específicos dos DFDs iniciados;
+- [Planilha de Controle/Aba Plano de Contratações](https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w) atualizada;
 - Documentos de Formalização de Demanda (DFDs) das contratações;
 - **Apresentação do Monitoramento da gestão das Aquisições** (em *.pptx ou markdown/marp);
 - **Portarias** de designação para membros de** equipe de planejamento de contratação** elaborada e publicada no BAE
