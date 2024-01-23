@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PTADM-GA-001.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<table align="right" border="0">
+  <tr>
+    <td align="center" valign="top">
+      <a href="./README.md">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones/sumario.png?raw=true" heigh="60" width="60"><br>Sumário<br>desta Fonte
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="../README.md">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones/casa2.png?raw=true" heigh="60" width="60"><br>Início deste <br>Repositório
+      </a>
+    </td>
+    <td align="center" valign="top">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/pdf/pdf.png?raw=true" heigh="60" width="60"><br>Baixar em PDF
+    </td>
+  </tr>
+</table><br><br><br><br><br><br><br>
+<h1 id="processo-de-trabalho-planejar-gest%C3%A3o-das-aquisi%C3%A7%C3%B5es">Processo de Trabalho: Planejar Gestão das Aquisições</h1>
+<center><b>SUMÁRIO</b></center>
+<!-- TOC updateonsave:false -->
+<ul>
+<li><a href="#processo-de-trabalho-planejar-gest%C3%A3o-das-aquisi%C3%A7%C3%B5es">Processo de Trabalho: Planejar Gestão das Aquisições</a>
+<ul>
+<li><a href="#1-identifica%C3%A7%C3%A3o-do-processo">1. Identificação do Processo</a></li>
+<li><a href="#2-delimita%C3%A7%C3%A3o-do-processo">2. Delimitação do Processo</a>
+<ul>
+<li><a href="#21-evento-inicial">2.1 Evento Inicial</a></li>
+<li><a href="#22-resultado">2.2 Resultado</a></li>
+<li><a href="#23-fornecedores">2.3 Fornecedor(es)</a></li>
+<li><a href="#24-entradas--insumos">2.4. Entradas / Insumos</a></li>
+<li><a href="#25-clientes">2.5 Clientes</a></li>
+<li><a href="#26-sa%C3%ADdas--produtos">2.6 Saídas / Produtos</a></li>
+</ul>
+</li>
+<li><a href="#3-etapa--entrega--atividade-do-processo">3. Etapa / Entrega / Atividade do Processo:</a></li>
+<li><a href="#4-identifica%C3%A7%C3%A3o-de-oportunidade-de-melhorias">4. Identificação de Oportunidade de Melhorias</a>
+- <a href="#orienta%C3%A7%C3%B5es">Orientações</a></li>
+<li><a href="#5-modelagem-do-processo--mapa-do-processo-">5. Modelagem do Processo ( Mapa do Processo )</a></li>
+<li><a href="#metodologia">Metodologia</a></li>
+</ul>
+</li>
+</ul>
+<!-- /TOC -->
+<!-- /TOC -->
+<h2 id="1-identifica%C3%A7%C3%A3o-do-processo">1. Identificação do Processo</h2>
+<ul>
+<li><strong>ID do Processo de Trabalho</strong>: PTADM-GA-001</li>
+<li><strong>Nome do Processo</strong>: Planejar Gestão das Aquisições</li>
+<li><strong>Objetivo do Processo</strong>:
+<ul>
+<li><strong>Apresentar</strong> o processo SEI para gestão das aquisições na unidade (SEINF);</li>
+<li><strong>Definir</strong> critérios de monitoramento dos respecticos processos de licitação e contratações diretas;</li>
+<li><strong>Elaborar</strong> os DFDs das aquisições em seus processos específicos;</li>
+<li><strong>Aprovar</strong> os DFDs das aquisições em seus processos específicos;</li>
+<li><strong>Identificar</strong> eventuais riscos relacionados a <strong><u>todos</u> os procedimentos da fase <u>preparatória</u></strong> dos processos de licitação e contratações diretas
+<ul>
+<li>Observação: Riscos específicos de cada contratação serão identificados e tratados no âmbito dos seus respectivos processos SEI;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Leis e normas aplicáveis ao processo</strong>:
+<ul>
+<li><strong>Normas Jurídicas Externas:</strong>
+<ul>
+<li><strong>Lei 14.133/2021</strong> - Lei de Licitações e Contratos Administrativos (NLLC);</li>
+<li><strong>Lei Complementar 123/2006</strong> - Institui o Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte, entre outras disposições;</li>
+<li><strong>Lei 9.784/1999</strong> - Regula o processo administrativo no âmbito da Administração Pública Federal;</li>
+<li>Decreto-Lei 4657/1942 - Lei de introdução às Normas Brasileiras (LINDB);</li>
+</ul>
+</li>
+<li><strong>Normas Jurídicas Internas:</strong>
+<ul>
+<li><strong>Resolução TSE Nº 23.702/2022</strong> - Dispõe sobre a Política de Governança das contratações na Justiça Eleitoral e dá outras providências;</li>
+<li><strong>Resolução TRE-PB nº 14/2022</strong> - Institui a política de governança de contratações do TRE-PB;</li>
+<li><strong>Instrução Normativa TRE-PB nº 1/2018</strong> - Regulamenta os procedimentos de contratação no âmbito do TRE-PB;</li>
+<li><strong>Portaria TRE-PB nº 321/2023</strong> - Ratifica os Planos Anuais de Contratação (PACONT 2024) referente às contratações administrativas ordinárias, de TIC e de Eleições no âmbito deste Tribunal para o exercício de 2024;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Unidade de gestão do processo</strong>: SEINF</li>
+<li><strong>Áreas envolvidas</strong>:
+<ul>
+<li>COINF</li>
+<li>AGGTIC</li>
+<li>STIC</li>
+<li>SAO</li>
+</ul>
+</li>
+<li><strong>Unidade de mapeamento do processo</strong>: SEINF</li>
+<li><strong>Tipo do Processo, Especificação e Classificação por Assuntos – Sistema SEI</strong>
+<ul>
+<li><strong>Tipo de processo:</strong> Aquisição de Bens e Serviços: Planejamento de Contratações</li>
+<li><strong>Especificação:</strong> Gestão das Aquisições (Licitações e Contratações Diretas) na SEINF AAAA (PACONTAAAA)</li>
+<li><strong>Classificação por Assuntos:</strong>
+<ul>
+<li>01.01.02.01 - Processo referente ao monitoramento e avaliação de Gestão</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Metodologia Adotada:</strong>
+<ul>
+<li>Para verificar a <strong>metodologia</strong> adotada na elaboração deste mapeamento, consulte a seção &quot;<a href="#metodologia">Metodologia</a>&quot; no final deste documento.</li>
+</ul>
+</li>
+<li><strong>Observações Adicionais:</strong>
+<ul>
+<li>Atualmente, este processo de trabalho envolve apenas o trabalho a ser realizado a partir de janeiro do ano seguinte a elaboração do PACONT;</li>
+<li>Idealmente, a <strong>gestão de contratações</strong> deve começar, em tempo hábil, antes da elaboração do <strong>plano anual de contratações (PACONT)</strong>, conforme disposto na <a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art12vii">Lei 14.133/2021, art. 12, VII</a>;</li>
+</ul>
+</li>
+</ul>
+<p style="page-break-before: always;">nova página</p>
+<h2 id="2-delimita%C3%A7%C3%A3o-do-processo">2. Delimitação do Processo</h2>
+<h3 id="21-evento-inicial">2.1 Evento Inicial</h3>
+<ul>
+<li><strong>Hipótese #1:</strong>
+<ul>
+<li><strong>Depois:</strong>
+<ul>
+<li>Aprovação pelo Comitê de Governança de Contratações do <strong>Plano Anual de Contratações (PACONT)</strong>; e</li>
+</ul>
+</li>
+<li><strong>Antes:</strong>
+<ul>
+<li>Elaboração da <strong>Proposta de Orçamento</strong> para o ano subsequente ao PACONT (veja <a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art12vii">Lei 14.133/2021, art. 12, VII</a>);</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Hipótese #2:</strong>
+<ul>
+<li>Por determinação da Coordenadoria de Infraestrutura (COINF)</li>
+</ul>
+</li>
+</ul>
+<h3 id="22-resultado">2.2 Resultado</h3>
+<ul>
+<li>Processo SEI de <strong>gestão das contratações</strong> iniciado, contendo:
+<ul>
+<li>As <strong>diretrizes</strong> para as contratações da SEINF;</li>
+<li>Os <strong>critérios de monitoramento</strong> das contratações estabelecidos;</li>
+<li><strong>Eventuais requisitos adicionais</strong> identificados e caracterizados;</li>
+</ul>
+</li>
+<li><strong>Documentos de Formalização de Demandas (DFDs)</strong> iniciados e aprovados em seus processos SEI específicos;</li>
+<li>O <strong>primeiro monitoramento</strong> apresentado à COINF;</li>
+<li>Planejamento das contratações atualizado e comunicado (SEINF/COINF);</li>
+</ul>
+<h3 id="23-fornecedores">2.3 Fornecedor(es)</h3>
+<ul>
+<li><strong>AGGTIC / STIC</strong>
+<ul>
+<li>PDTIC 2024/2025</li>
+</ul>
+</li>
+<li><strong>COINF</strong>
+<ul>
+<li>Revisão, ajustes e aprovação dos documentos de planejamento de aquisições (licitações e contratações diretas);</li>
+</ul>
+</li>
+<li><strong>SAO</strong>
+<ul>
+<li>PACONT 2024</li>
+</ul>
+</li>
+</ul>
+<h3 id="24-entradas--insumos">2.4. Entradas / Insumos</h3>
+<ul>
+<li><a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024/@@download/file/tre-pb-plano-de-contratacoes-de-tic.pdf">Anexo II do PACONT Preliminar ou Definitivo</a> vigente</li>
+<li><a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-plano-estrategico-2021-2026/@@download/file/tre-pb-plano-estrategico-2021-2026.pdf">Plano Estratégico Institucional</a> (p. 3)</li>
+<li><a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-pdtic-2023-2024/@@download/file/TRE_PB_PDTIC_2023_2024_v1.pdf"><strong>Plano Diretor de TIC 2023-2024</strong></a>
+<ul>
+<li><strong>PDTIC 2024-2025</strong> no <strong>Processo SEI nº</strong> <a href="https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&amp;id_procedimento=1731776">0009140-88.2023.6.15.8000</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="25-clientes">2.5 Clientes</h3>
+<ul>
+<li>COINF</li>
+<li>AGGTIC</li>
+<li>STIC</li>
+<li>SAO</li>
+</ul>
+<h3 id="26-sa%C3%ADdas--produtos">2.6 Saídas / Produtos</h3>
+<ul>
+<li>Documento de abertura e apresentação do processo de gestão das aquisições (licitações e/ou contratações diretas);</li>
+<li>Processos SEI específicos dos DFDs iniciados;</li>
+<li>Documentos de Formalização de Demanda (DFDs) das contratações;</li>
+<li><strong>Apresentação do Monitoramento da gestão das Aquisições</strong> (em *.pptx ou markdown/marp);</li>
+<li><strong>Portarias</strong> de designação para membros de** equipe de planejamento de contratação** elaborada e publicada no BAE</li>
+</ul>
+<h2 id="3-etapa--entrega--atividade-do-processo">3. Etapa / Entrega / Atividade do Processo:</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">ID</th>
+<th style="text-align:left">Entrada(s)</th>
+<th style="text-align:left">Riscos/Controles Associados</th>
+<th style="text-align:left">Etapa/Entrega/Atividade</th>
+<th style="text-align:left">Atores</th>
+<th style="text-align:left">Prazo/Condição</th>
+<th style="text-align:left">Saídas<br>Produto/Serviço/Capacidade Relacionado</th>
+<th style="text-align:left">Anotação/Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-F4JH7</td>
+<td style="text-align:left">✅ <a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w">Planilha de Controle/Aba Plano de Contratações</a><br>✅ <a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024/@@download/file/tre-pb-plano-de-contratacoes-de-tic.pdf">Anexo II do PACONT Preliminar<br>ou Definitivo</a> vigente<br>✅ <strong>PDTIC 2024-2025</strong> no <strong>Processo SEI nº</strong> <a href="https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&amp;id_procedimento=1731776">0009140-88.2023.6.15.8000</a><br>✅<a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-plano-estrategico-2021-2026/@@download/file/tre-pb-plano-estrategico-2021-2026.pdf">Plano Estratégico Institucional</a> (p. 3)</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Aglutinar os itens do PACONT 2024 para iniciar processo específico de Aquisição</td>
+<td style="text-align:left">🏃- Colab.(E);<br>👨‍💼🤴- Chefe (R/APR)</td>
+<td style="text-align:left">Até 25/01/2024</td>
+<td style="text-align:left">✅ Planilha de Controle/Aba Plano de Contratações atualizada (Relação com os itens do PACONT aglutinados p/ abertura de proc. SEI específicos de contratação)<br>✅ Documento de abertura e apresentação do processo elaborado<br>✅ Processos SEI específicos dos DFDs iniciados<br>✅ Processos de Gestão das Aquisições iniciado</td>
+<td style="text-align:left">✅ Anexar <strong>cópia do Plano Anual de Contratações Preliminar ou Definitivo</strong> (conforme a disponibilidade)<br>✅Aglutinar os itens do PACONT que farão parte de um processo SEI específico</td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-DD3K0</td>
+<td style="text-align:left">✅ <a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w">Planilha de Controle/Aba Plano de Contratações</a><br>✅ <a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024/@@download/file/tre-pb-plano-de-contratacoes-de-tic.pdf">Anexo II do PACONT Preliminar<br>ou Definitivo</a> vigente<br>✅ <strong>PDTIC 2024-2025</strong> no <strong>Processo SEI nº</strong> <a href="https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&amp;id_procedimento=1731776">0009140-88.2023.6.15.8000</a><br>✅<a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-plano-estrategico-2021-2026/@@download/file/tre-pb-plano-estrategico-2021-2026.pdf">Plano Estratégico Institucional</a> (p. 3)</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Assinalar na planilha de controle do PACONT as RENOVAÇÕES DE CONTRATAÇÕES e as contratações JÁ REALIZADAS</td>
+<td style="text-align:left">🏃- Colab.(E);<br>👨‍💼🤴- Chefe (R/APR)</td>
+<td style="text-align:left">Até 25/01/2024</td>
+<td style="text-align:left">✅ Planilha de Controle/Aba Plano de Contratações atualizada</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-I3NFQ</td>
+<td style="text-align:left">✅ <a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024/@@download/file/tre-pb-plano-de-contratacoes-de-tic.pdf">Anexo II do PACONT Preliminar<br>ou Definitivo</a> vigente<br>✅ <strong>PDTIC 2024-2025</strong> no <strong>Processo SEI nº</strong> <a href="https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&amp;id_procedimento=1731776">0009140-88.2023.6.15.8000</a><br>✅<a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-plano-estrategico-2021-2026/@@download/file/tre-pb-plano-estrategico-2021-2026.pdf">Plano Estratégico Institucional</a> (p. 3)</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Iniciar processo SEI de gestão das aquisições</td>
+<td style="text-align:left">🏃- Colab.(E);<br>👨‍💼🤴- Chefe (R/APR)</td>
+<td style="text-align:left">Até 25/01/2024</td>
+<td style="text-align:left">✅ Relação com os itens do PACONT aglutinados (p/ abertura de proc. SEI específicos de contratação)<br>✅ Documento de abertura e apresentação do processo elaborado<br>✅ Processos SEI específicos dos DFDs iniciados<br>✅ Processos de Gestão das Aquisições iniciado</td>
+<td style="text-align:left">✅ Anexar <strong>cópia do Plano Anual de Contratações Preliminar ou Definitivo</strong> (conforme a disponibilidade)<br>✅Aglutinar os itens do PACONT que farão parte de um processo SEI específico</td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-AAXAJ</td>
+<td style="text-align:left">✅ <a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024/@@download/file/tre-pb-plano-de-contratacoes-de-tic.pdf">Anexo II do PACONT Preliminar<br>ou Definitivo</a> vigente<br>✅ <strong>PDTIC 2024-2025</strong> no <strong>Processo SEI nº</strong> <a href="https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&amp;id_procedimento=1731776">0009140-88.2023.6.15.8000</a><br></td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Iniciar Processos SEI para cada contratação PACONT</td>
+<td style="text-align:left">🏃- Colab.(E)<br>👨‍💼🤴- Chefe (R/APR)</td>
+<td style="text-align:left">Até 25/01/2024</td>
+<td style="text-align:left">✅ Processos específicos iniciados para cada contratação prevista para SEINF no PACONT</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-IXATN</td>
+<td style="text-align:left">✅ Relação com os itens do PACONT aglutinados (p/ abertura de proc. SEI específicos de contratação) <br>✅ <a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024/@@download/file/tre-pb-plano-de-contratacoes-de-tic.pdf">Anexo II do PACONT Preliminar<br>ou Definitivo</a> vigente<br>✅<a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-plano-estrategico-2021-2026/@@download/file/tre-pb-plano-estrategico-2021-2026.pdf">Plano Estratégico Institucional</a> (p. 3)</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Elaborar minuta dos DFDs nos processos específicos</td>
+<td style="text-align:left">🏃- Colab.(E);<br>👨‍💼-Chefe(R)</td>
+<td style="text-align:left">Até 26/01/2024</td>
+<td style="text-align:left">✅ DFDs minutados</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-8WB9K</td>
+<td style="text-align:left">- PACONT Preliminar<br>ou Definitivo vigente<br>-DFDs minutados</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Apresentar DFDs para COINF</td>
+<td style="text-align:left">-:man_office_worker:🏃-Chefe(R/E)<br>:detective:-Coord.(O)</td>
+<td style="text-align:left">Até 26/01/2024</td>
+<td style="text-align:left">✅ Manifestação de Ciência nos DFDs minutados</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-5W3HJ</td>
+<td style="text-align:left">✅ <a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024/@@download/file/tre-pb-plano-de-contratacoes-de-tic.pdf">Anexo II do PACONT Preliminar<br>ou Definitivo</a> vigente<br>✅<a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-plano-estrategico-2021-2026/@@download/file/tre-pb-plano-estrategico-2021-2026.pdf">Plano Estratégico Institucional</a> (p. 3)<br>-DFDs minutados</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Realizar Reunião de Análise da Gestão das Aquisições</td>
+<td style="text-align:left">🤝-Colab.(A)<br>🏃-Colab.(E)<br>:man_office_worker:🏃-Chefe(R/E)<br>🕵️-Coord.(APR)</td>
+<td style="text-align:left">Entre 29/01/2024<br>e<br>30/01/2024</td>
+<td style="text-align:left">✅Ata de reunião elaborada e assinada;<br>✅ DFDs com sugestões de mudanças/correções identificados<br>✅ Requisitos para monitoramento identificados e caracterizados<br>-<strong>Riscos gerais</strong> para <strong>fase de preparação das aquisições</strong>  (<a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm#art18">Lei 14.133/2021, art. 18</a>) inicialmente identificados</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-446BJ</td>
+<td style="text-align:left">✅ Requisitos para monitoramento identificados e caracterizados</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Registar requisitos para monitoramento dos atos preparatórios das Aquisições</td>
+<td style="text-align:left">🤝-Colab.(A)<br>🏃-Colab.(E)<br>:man_office_worker:-Chefe(R)<br>🕵️-Coord.(APR)</td>
+<td style="text-align:left">Até 30/01/2024</td>
+<td style="text-align:left">✅ Informação Abertura de Proc. SEI Atualizada contendo os Requisitos de Monitoramento identificados e caracterizados</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-FUIEV</td>
+<td style="text-align:left">✅ <a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024/@@download/file/tre-pb-plano-de-contratacoes-de-tic.pdf">Anexo II do PACONT Preliminar<br>ou Definitivo</a> vigente<br>✅<a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-plano-estrategico-2021-2026/@@download/file/tre-pb-plano-estrategico-2021-2026.pdf">Plano Estratégico Institucional</a> (p. 3)<br>✅ DFDs minutados</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Revisar DFDs nos processos específicos</td>
+<td style="text-align:left">🤝-Colab.(A)<br>🏃-Colab.(E)<br>:man_office_worker:-Chefe(R)</td>
+<td style="text-align:left">Até 31/01/2024</td>
+<td style="text-align:left">✅ DFDs revisados</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-DAK7I</td>
+<td style="text-align:left">✅ <a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024/@@download/file/tre-pb-plano-de-contratacoes-de-tic.pdf">Anexo II do PACONT Preliminar<br>ou Definitivo</a> vigente<br>✅<a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/planejamento-estrategico/arquivos/tre-pb-plano-estrategico-2021-2026/@@download/file/tre-pb-plano-estrategico-2021-2026.pdf">Plano Estratégico Institucional</a> (p. 3)<br>-DFDs minutados</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Aprovar DFDs</td>
+<td style="text-align:left">🏃:man_office_worker:-Colab.(E/R)<br>🤴-Coord.(APR)</td>
+<td style="text-align:left">Entre 01/02/2024 e 02/02/2024</td>
+<td style="text-align:left">✅ DFDs aprovados</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AID-55H9C</td>
+<td style="text-align:left">✅ DFDs Aprovados</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Atualizar minuta de abertura e apresentação no processo de gestão das aquisições</td>
+<td style="text-align:left">🏃-Colab.(E)<br>👨‍💼🤴-Chefe(R/APR)</td>
+<td style="text-align:left">Até 02/02/2024</td>
+<td style="text-align:left">✅ Apresentação do monitoramento da gestão das aquisições atualizado;<br>✅ Informação Abertura de Proc. SEI Atualizada</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:center">PTADM-GA-001-AIDMOHCS</td>
+<td style="text-align:left">✅ Apresentação do monitoramento da gestão das aquisições atualizado;<br>- Informação Abertura de Proc. SEI Atualizada</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">Encaminhar 1º monitoramento do processo de gestão das aquisições para Coordenação</td>
+<td style="text-align:left">🏃-Colab.(E)<br>👨‍💼-Chefe(R)<br>🕵️-Coord.(O)</td>
+<td style="text-align:left">Até 02/02/2024</td>
+<td style="text-align:left">✅ Monitoramento apresentado (p/Coord.);<br>✅ Ciência no processo SEI manifestada(p/Coord.)</td>
+<td style="text-align:left">-</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Legenda:</strong>
+<ul>
+<li><strong>Atores:</strong>
+<ul>
+<li>Colaborador da Unidade;</li>
+<li>Chefe da Unidade;</li>
+<li>Coordenador;</li>
+<li>AGGTIC;</li>
+<li>STIC;</li>
+<li>SAO;</li>
+</ul>
+</li>
+<li><strong>Papéis:</strong>
+<ul>
+<li><b style="font-size:30px">🏃</b><strong>(E) Executa</strong>: minuta saída da atividade/entrega/etapa para ser analisada e revisada pelo responsável;;</li>
+<li><b style="font-size:30px">:detective:</b><strong>(O) Observa</strong>: Parte interessada que entende haver valor no acompanhamento e na observação da saída da atividade/entrega/etapa;</li>
+<li><b style="font-size:30px">🤝</b><strong>(A) Apoia</strong>: presta informações especializadas adicionais necessárias e/ou essenciais para quem executa, é responsável e aprova a saída da atividade/entrega/etapa;</li>
+<li><b style="font-size:30px">:man_office_worker:</b><strong>(R) Responsável</strong>: Assina e responsabiliza-se pela saída da atividade/entrega/etapa;</li>
+<li><b style="font-size:30px">:prince:</b><strong>(APR) Aprova</strong>: revisa, aprova e responsabiliza-se pela saída da atividade/entrega/etapa;</li>
+</ul>
+</li>
+<li>Os <strong>PRAZOS</strong> e/ou <strong>CONDIÇÕES</strong> podem ser:
+<ul>
+<li>Em dd/mm/yyyy;</li>
+<li>Entre dd/mm/yyyy e dd/mm/yyyy;</li>
+<li>Até dd/mm/yyyy;</li>
+<li>Após dd/mm/yyyy;</li>
+<li>Antes de NOME-DO-EVENTO;</li>
+<li>Durante NOME-DO-EVENTO;</li>
+<li>Após NOME-DO-EVENTO;</li>
+<li>Uma mistura de DATAS e NOME-DE-EVENTOS;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-identifica%C3%A7%C3%A3o-de-oportunidade-de-melhorias">4. Identificação de Oportunidade de Melhorias</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">#</th>
+<th style="text-align:left">Problemas/dificuldades/gargalo</th>
+<th style="text-align:left">Ideias de melhorias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:left">-</td>
+<td style="text-align:left">-</td>
+</tr>
+</tbody>
+</table>
+<h5 id="orienta%C3%A7%C3%B5es">Orientações</h5>
+<ul>
+<li><strong>Problemas/dificuldades/gargalo</strong>: Problemas e dificuldades eventualmente detectados no processo, no âmbito da
+unidade no qual o mesmo está sendo mapeado;</li>
+<li><strong>Ideias de melhorias</strong>: possíveis soluções de melhoria aos problemas e dificuldades eventualmente
+encontrados no processo</li>
+</ul>
+<h2 id="5-modelagem-do-processo--mapa-do-processo">5. Modelagem do Processo ( Mapa do Processo )</h2>
+<ul>
+<li>Incluir imagem do BPMN do processo;</li>
+<li>Incluir link para o arquivo &quot;.bpmn&quot;;</li>
+</ul>
+<h2 id="metodologia">Metodologia</h2>
+<ul>
+<li><a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/gestao-de-processos/arquivos/trepb-metodologia-de-gestao-de-processos/@@download/file/trepb-metodologia-de-gestao-de-processos.pdf">Metodologia de Gestão de Processos do TRE-PB</a></li>
+<li><a href="https://www.tre-pb.jus.br/++theme++justica_eleitoral/pdfjs/web/viewer.html?file=https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/planejamento-e-gestao/gestao-de-processos/arquivos/trepb-guia-pratico-de-gestao-de-processos/@@download/file/trepb-guia-pratico-de-gestao-de-processos.pdf">Guia Prático de Gestão de Processos do TRE_PB</a>
+<ul>
+<li>Formulário de Mapeamento de Processo: Páginas 22 a 26</li>
+</ul>
+</li>
+</ul>
+
+</body>
+</html>
