@@ -1,3 +1,5 @@
+![center](../figuras/tre-pb-cabecalo-padrao-stic-coinf-seinf.png)
+
 <table align="right" border="0">
   <tr>
     <td align="center" valign="top">
