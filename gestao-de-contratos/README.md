@@ -52,7 +52,7 @@ A Gestão de Contratos na SEINF engloba os seguintes **tipos de contratos**:
 - Aquisição de bens com prestação de serviço de suporte;
 - Aquisição de bens com prestação de serviço de suporte e fornecimento de peças;
 
-## contratos Vigentes: Prestação de Serviço
+## Contratos Vigentes: Prestação de Serviço
 
 | RESPONSÁVEL | TIPO DO OBJETO<br>DO CONTRATO / TIPO PAGAMENTO | CONTRATO | CNPJ / CONTRATADA | OBJETO | GESTÃO DO CONTRATO | LANÇAMENTO DE PAGAMENTOS |
 |:-----------:|:------------------:|:--------:|:-----------------------------------------|:----------------------------------------------------:|:----------------------------:|:---------------------:|
