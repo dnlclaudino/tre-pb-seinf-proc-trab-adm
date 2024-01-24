@@ -22,6 +22,8 @@
 
 # Gestão de Contratos
 
+- A gestão e a fiscalização de contratos no TRE-PB é disciplinada pela [Portaria TRE-PB nº 18/2018](https://apps.tre-pb.jus.br/normas-portal/doc?tipo=norma&cod=1119&nom=TRE-PB-portaria-18-2018-dg.pdf).
+- A norma acima foi gravada no sistema Normas do TRE-PB com problemas em seu arquivo PDF. Nesse sentido, para uma melhor experiência, a Portaria nº 18/2018 pode ser consultada em texto puro, localmente, [AQUI](./portaria-tre-pb-n18-2018.md).
 - Uma [planilha para a gestão dos contratos da SEINF](https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=176716168&range=A1) foi criada contendo:
   - Gestão de Contratos e ARPs
   - Gestão de Empenhos; e
