@@ -44,18 +44,23 @@
 | 6  | Ampliação da telefonia IP                                 | Substituição de telefones analógicos por telefones IP na sede e zonas eleitorais da capital e Campina Grande | 01/02/2024 | 18/06/2024 | 140.000,00   | SEINF       |                                      |
 | 7  | Atualização do parque computacional das zonas eleitorais  | Substituição dos micromcomputadores de atendimento, voips e impressoras nas zonas eleitorais                 | 01/02/2024 | 18/06/2024 | 60.000,00    | SESOP       | Custo de diárias                     |
 | 8  | Monitaremento de serviços essenciais                      | Implantação de solução de monitoramento de serviços essenciais mediante uso de dashboards                    | 01/02/2024 | 18/12/2024 | -            | SEINF       |                                      |
-| 9  | Linux desktop                                             | Desenvolvimento de solução de uso de Linux em computadores desktops com automação de configurações           | 01/02/2025 | 01/07/2025 | -            | SESOP/SEINF |                                      |
 
-### Início em Julho/2024
+### Início em Fevereiro/2025
+| ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim      | R$           | SETOR       | Observação                           |
+| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | ------------------------------------ |
+| 9  | Linux desktop| Desenvolvimento de solução de uso de Linux em computadores desktops com automação de configurações           | 01/02/2025 | 01/07/2025 | -            | SESOP/SEINF |                                      | 
+
+### Início em Julho/2025
 
 | ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim      | R$           | SETOR       | Observação                           |
 | -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | ------------------------------------ |
 | 10 | Integração do domínios                                    | Integrar o domínio das zonas eleitorais ao domínio da sede                                                   | 01/07/2025 | 18/12/2025 | -            | SEINF       |                                      |
 
-### Início em Setembro/2024
+### Início em Setembro/2025
 | ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim      | R$           | SETOR       | Observação                           |
 | -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | ------------------------------------ |
 | 11 | Drive em nuvem on premise                                 | Implantação de solução de drive em nuvem na infraestrutura do TRE-PB                                         | 01/09/2025 | 18/12/2025 | -            | SEINF       |                                      |
+
 
 ## Processos de Trabalho
 
