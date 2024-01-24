@@ -52,7 +52,7 @@ A Gestão de Contratos na SEINF engloba os seguintes **tipos de contratos**:
 - Aquisição de bens com prestação de serviço de suporte;
 - Aquisição de bens com prestação de serviço de suporte e fornecimento de peças;
 
-## Vigentes: Prestação de Serviço
+## contratos Vigentes: Prestação de Serviço
 
 | RESPONSÁVEL | TIPO DO OBJETO<br>DO CONTRATO / TIPO PAGAMENTO | CONTRATO | CNPJ / CONTRATADA | OBJETO | GESTÃO DO CONTRATO | LANÇAMENTO DE PAGAMENTOS |
 |:-----------:|:------------------:|:--------:|:-----------------------------------------|:----------------------------------------------------:|:----------------------------:|:---------------------:|
@@ -60,9 +60,15 @@ A Gestão de Contratos na SEINF engloba os seguintes **tipos de contratos**:
 |    SEINF    | Serviço / Pagamento Mensal | 18/2023<br>(Doc. SEI nº) | 35.746.824/0002-70 - OPIX SERVIÇOS DE TECNOLOGIA LTDA   | Contratação de link de internet dedicado de 1 Gbps entre STRE e Fórum Eleitoral JPA | <a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=176716168&range=A1"><img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-documento-detalhes.png?raw=true" heigh="40" width="40"></a> | <a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=1043511567&range=A1"><img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-pagamento.png?raw=true" heigh="40" width="40"></a> |
 |    SEINF    | Serviço / Pagamento Mensal  | 30/2019<br>(Doc. SEI nº) | 04.352.312/0001-15 - RIX INTERNET LTDA  | Contratação de link de internet, circuito digital de comunicação de dados com velocidade de 1Gbps| <a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=176716168&range=A1"><img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-documento-detalhes.png?raw=true" heigh="40" width="40"></a> | <a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=1043511567&range=A1"><img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-pagamento.png?raw=true" heigh="40" width="40"></a> |
 |    SEINF    | Serviço / Pagamento Mensal | 38/2019<br>(Doc. SEI nº 1737133) | 08.542.800/0001-46 - FL INFORMÁTICA LTDA | Contratação de um link de internet dedicado de 50Mbps (Atualmente 500MB, conforme Termo Aditivo nº 4/2022 Doc. SEI nº 1463399)| <a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=176716168&range=A1"><img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-documento-detalhes.png?raw=true" heigh="40" width="40"></a> | <a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=1043511567&range=A1"><img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-pagamento.png?raw=true" heigh="40" width="40"></a> |
-|    SEINF    | Serviço COM<br>Fornecimento de Peças / Pagamento Mensal  | 58/2019<br>(Doc. SEI nº 1461826) | 83.472.803/0001-76 - DÍGITRO TECNOLOGIA S.A |Serviços de manutenção física e lógica da CENTRAL TELEFÔNICA (PABX analógico e IP) do TRE-PB, com fornecimento de itens de hardware, de software e atendimento remoto e presencial|<a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=176716168&range=A1"><img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-documento-detalhes.png?raw=true" heigh="40" width="40"></a> | <a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=1043511567&range=A1"><img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-pagamento.png?raw=true" heigh="40" width="40"></a> |
 
-## Vigentes: Licença de Software
+## Contratos Vigentes: Bens Permanentes
+
+| RESPONSÁVEL | TIPO DO OBJETO<br>DO CONTRATO / TIPO PAGAMENTO | CONTRATO | CNPJ / CONTRATADA | OBJETO | GESTÃO DO CONTRATO | LANÇAMENTO DE PAGAMENTOS |
+|:-----------:|:------------------:|:--------:|:-----------------------------------------|:----------------------------------------------------:|:----------------------------:|:---------------------:|
+|    SEINF    | Bem Permanente E Serviço de Suporte / Pagamento Total  | 44/2019<br>(Doc. SEI nº 0592990) |03.698.620/0001-34 - GREEN4T SOLUÇÕES DE TI LTDA|Aquisição de estrutura de rack-seguro|<a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=176716168&range=A1"><img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-documento-detalhes.png?raw=true" heigh="40" width="40"></a> | - |
+|    SEINF    | Bem Permanente COM Serviço de Suporte E Garantia / Pagamento Total  | 48/2019<br>(Doc. SEI nº 0595992) | 02.092.332/0001-79	CLM SOFTWARE COMÉRCIO IMPORTAÇÃO E EXPORTAÇÃO LTDA |Aquisição de dois Servidores de Rede Tipo 1. Marca: LENOVO/Modelo: THINKSYSTEM - SR 650 com garantia 60 meses|<a href="https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=176716168&range=A1"><img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-documento-detalhes.png?raw=true" heigh="40" width="40"></a> | - |
+
+## Contratos Vigentes: Licença de Software
 
 | RESPONSÁVEL | TIPO DO OBJETO<br>DO CONTRATO / TIPO PAGAMENTO | CONTRATO | CNPJ / CONTRATADA | OBJETO | GESTÃO DO CONTRATO | LANÇAMENTO DE PAGAMENTOS |
 |:-----------:|:------------------:|:--------:|:-----------------------------------------|:----------------------------------------------------:|:----------------------------:|:---------------------:|
@@ -79,7 +85,7 @@ A Gestão de Contratos na SEINF engloba os seguintes **tipos de contratos**:
 
 ## Contratos Encerrados
 
-A relação de contratos não mais vigentes pode ser consultada através da [planilha de gestão da SEINF](https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=176716168&range=A1).
+A relação de contratos não mais vigentes pode ser consultada através da [planilha de gestão da SEINF](https://docs.google.com/spreadsheets/d/1zJuztvGnc1ayNyRi5nSrLAkMDc6fnLNd9di6VOnq96w/edit#gid=176716168&range=A1) bastanto filtrar pela coluna **CONTRATO ENCERRADO ?** (**SIM**).
 
 ## Documentos para Pagamento
 
