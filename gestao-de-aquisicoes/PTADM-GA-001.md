@@ -55,16 +55,16 @@
     - Observação: Riscos específicos de cada contratação serão identificados e tratados no âmbito dos seus respectivos processos SEI;
 - **Leis e normas aplicáveis ao processo**:
   - **Normas Jurídicas Externas:**
-    - **Lei 14.133/2021** - Lei de Licitações e Contratos Administrativos (NLLC);
-    - **Lei Complementar 123/2006** - Institui o Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte, entre outras disposições;
-    - **Lei 9.784/1999** - Regula o processo administrativo no âmbito da Administração Pública Federal;
-    - Decreto-Lei 4657/1942 - Lei de introdução às Normas Brasileiras (LINDB);
+    - **[Lei 14.133/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm)** - Lei de Licitações e Contratos Administrativos (NLLC);
+    - **[Lei Complementar 123/2006](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm)** - Institui o Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte, entre outras disposições;
+    - **[Lei 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm)** - Regula o processo administrativo no âmbito da Administração Pública Federal;
+    - [Decreto-Lei 4.657/1942](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657.htm) - Lei de introdução às Normas Brasileiras (LINDB);
     - [Resolução CNJ nº 468/2022](https://1drv.ms/b/s!Au-CrfNP6c0bhqpkiw-zpIXV87Q-nQ?e=MYOyav) - Dispõe sobre **DIRETRIZES** para as contratações de Solução de Tecnologia da Informação e Comunicação pelos órgãos submetidos ao controle administrativo e financeiro do Conselho Nacional de Justiça
   - **Normas Jurídicas Internas:**
-    - **Resolução TSE Nº 23.702/2022** - Dispõe sobre a Política de Governança das contratações na Justiça Eleitoral e dá outras providências;
-    - **Resolução TRE-PB nº 14/2022** - Institui a política de governança de contratações do TRE-PB;
+    - **[Resolução TSE Nº 23.702/2022](https://www.tse.jus.br/legislacao/compilada/res/2022/resolucao-no-23-702-de-9-de-junho-de-2022)** - Dispõe sobre a Política de Governança das Contratações na Justiça Eleitoral e dá outras providências;
+    - **[Resolução TRE-PB nº 14/2022](https://apps.tre-pb.jus.br/normas-portal/doc?tipo=norma&cod=1639&nom=TRE-PB-resolucao-14-2022.pdf)** - Institui a Política de Governança de Contratações do TRE-PB;
     - **[Instrução Normativa TRE-PB nº 01/2018](https://apps.tre-pb.jus.br/normas-portal/doc?tipo=norma&cod=1101&nom=TRE-PB-instrucaonormativa-01-2018.pdf)** - Regulamenta os procedimentos de contratação no âmbito do TRE-PB;
-    - **Portaria TRE-PB nº 321/2023** - Ratifica os Planos Anuais de Contratação (PACONT 2024) referente às contratações administrativas ordinárias, de TIC e de Eleições no âmbito deste Tribunal para o exercício de 2024;
+    - **[Portaria TRE-PB nº 321/2023](https://apps.tre-pb.jus.br/normas-portal/doc?tipo=norma&cod=1896&nom=tre-pb-portaria-321-2023.pdf)** - Ratifica os Planos Anuais de Contratação (PACONT 2024) referente às contratações administrativas ordinárias, de TIC e de Eleições no âmbito deste Tribunal para o exercício de 2024;
 - **Unidade de gestão do processo**: SEINF
 - **Áreas envolvidas**:
   - COINF
