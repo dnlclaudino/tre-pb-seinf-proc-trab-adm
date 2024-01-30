@@ -20,9 +20,9 @@
   </tr>
 </table><br><br><br><br><br><br>
 
-# Macroprocessos de Trabalho Administrativos na SEINF
+# Macroprocessos de Trabalho: Apoiar Administrativamente à SEINF
 
-Este repositório contém a gestão do conhecimento dos **processos de trabalho administrativos** para Realização Das **atribuições regulamentares**, conforme Resolução TRE-PB nº 14/2019, art. 89.
+Este repositório contém a gestão do conhecimento dos **processos de trabalho administrativos** para realização Das **atribuições regulamentares**, conforme Resolução TRE-PB nº 14/2019, art. 89.
 
 |#|Macroprocesso de trabalho|
 |:---:|:---|
@@ -36,6 +36,17 @@ Este repositório contém a gestão do conhecimento dos **processos de trabalho 
 |8|[Gestão do Patrimônio](./gestao-do-patrimonio/README.md)|
 |9|Gestão de Integridade|
 |10|Gestão Documental e da Memória|
+|11|[Gestão de Processos de Trabalho](./gestao-de-processos-de-trabalho/README.md)|
+
+### Visão Geral do Apoio Administrativo à SEINF
+
+Todas as atribuições regulamentares da SEINF, dispostas na Resolução TRE-PB nº 14/2019, art. 89, demandam apoio administrativo de acordo com a seguinte visão geral, num nível de mais alto grau de abstração:
+
+<div style="text-align:center">
+
+![](./bpmn/visao-geral-macroprocesso-apoiar-administrativamente-a-seinf.svg "Visão geral do apoio administrativo na SEINF")
+
+</div>
 
 ## Navegação nos arquivos deste repositório
 
