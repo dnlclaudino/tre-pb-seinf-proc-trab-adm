@@ -60,7 +60,7 @@
 - **Art. 4º.** Compete ao gestor do contrato, subsidiado pelo fiscal:
   - I - ✳**PROMOVER** a juntada, no procedimento administrativo, de todos os documentos contratuais recebidos, inclusive os formulários mencionados no art. 8º desta portaria, conforme o caso;
   - II - **OBSERVAR**, desde o início da vigência da avença, o cumprimento de todas as exigências contidas no edital e no próprio instrumento contratual;
-  - III - ✳**AUTORIZAR** a contratada, observando-se os termos do edital, a iniciar a execução dos trabalhos através do documento denominado “Autorização de Início de Serviço” (anexo VII desta Portaria), fixando a data de início do prazo de execução estipulado no contrato;
+  - III - ✳**AUTORIZAR** a contratada, observando-se os termos do edital, a iniciar a execução dos trabalhos através do documento denominado <span style="background-color:yellow">**“Autorização de Início de Serviço” (anexo VII desta Portaria)**</span>, fixando a data de início do prazo de execução estipulado no contrato;
   - IV - antes de dar início à execução do ajuste, **REALIZAR** reunião com o fiscal do contrato, o preposto e os gerentes da contratada, os servidores da unidade requisitante e os responsáveis pela elaboração do termo de referência ou projeto básico para esclarecimento das obrigações contratuais e outros acertos, com a obrigatória lavratura de ata assinada pelos presentes;
   - V - ✳**ESTABELECER** reuniões periódicas para garantir a qualidade da execução do contrato e os respectivos resultados, com a obrigatória lavratura de ata assinada pelos presentes;
   - VI - ✳**ANOTAR** de forma clara, transparente e organizada, em registro próprio, todas as ocorrências relacionadas com a execução do contrato;
@@ -116,12 +116,34 @@
 
 ## Processos de Trabalho de Gestão de Contratos
 
-| Código do<br>Processo de trabalho | Nome do Processo de Trabalho                   | Evento Inicial | Evento Final | Anotações |
-|:---------------------------------:|:-----------------------------------------------|:---------------|:-------------|:---------:|
-|          PTADM-GCONT-1100          | [Promover Juntada de Documentos Contratuais em Processo SEI]()               | -              | -            |     [Portaria TRE-PB DG nº 18/2018](https://github.com/dnlclaudino/tre-pb-seinf-proc-trab-adm/blob/master/gestao-de-contratos/portaria-tre-pb-n18-2018.md)     |
-|          PTADM-GCONT-1020          | [nome-do-processo-de-trabalho]()               | -              | -            |     -     |
-|          PTADM-GCONT-1031          | [Apropriar Despesa de Prestação de Serviços]() | -              | -            |     -     |
-|          PTADM-GCONT-1032          | [Apropriar Despesa de Fornecimento de Bens]()  | -              | -            |     -     |
+### Categoria de Processos de Trabalho
+
+|Código da Categoria<br>de Processo de Trabalho |Categoria de Processo de Trabalho                                             | Fundamento Legal/Normativo                       | Anotações/Observações       |
+|:----------------------------------------------| :----------------------------------------------------------------------------|:-------------------------------------------------|:----------------------------|
+|PTADM-GCONT-1100                               | Processos de trabalho relacionados com as competências do Gestor do Contrato |Portaria TRE-PB nº 18/2018, art. 4 e seus incisos |
+|PTADM-GCONT-2100                               | Processos de trabalho relacionados com as competências do Fiscal do Contrato |Portaria TRE-PB nº 18/2018, art. 5 e seus incisos |
+
+### Processos de Trabalho Específicos: PTADM-GCONT-1100 - Competências do Gestor do Contrato
+
+|Código do<br>Processos de Trabalho| Categoria de Processos de Trabalho                                          | Fundamento Legal/Normativo                  | Anotações/Observações       |
+|:---------------------------------|:----------------------------------------------------------------------------|:--------------------------------------------|:---------------------------|
+| PTADM-GCONT-1101                 | Promover Juntada de Documentos Relacionado com o Contrato em Processo SEI   | Portaria TRE-PB nº 18/2018, art. 4, I       | -                          |
+| PTADM-GCONT-1102                 | Autorizar Contratada a Iniciar Serviços                                     | Portaria TRE-PB nº 18/2018, art. 4, III     | -                          |
+| PTADM-GCONT-1103                 | Garantir Qualidade da Execução do Contrato                                  | Portaria TRE-PB nº 18/2018, art. 4, I       | -                          |
+| PTADM-GCONT-1104                 | Realizar Reunião para Adequada Execução e Gestão de Contrato                | Portaria TRE-PB nº 18/2018, art. 4, IV e V  | -                          |
+| PTADM-GCONT-1105                 | Manter Registro de Ocorrências Relacionadas à Gestão do Contrato            | Portaria TRE-PB nº 18/2018, art. 4, VI      | - Incluindo informações de pagamento realizados à contratada |
+| PTADM-GCONT-1106                 | Manter Registro Atualizados com Dados do Representante da Contratada        | Portaria TRE-PB nº 18/2018, art. 4, VII      | -                          |
+| PTADM-GCONT-1107                 | Comunicar a SAO Indícios Eventos que Possam Implicar em Irregularidades no Recolhimento de Contribuições, Rescisão e/ou Aplicação de Penalidade | Portaria TRE-PB nº 18/2018, art. 4, VIII      | -                          |
+| PTADM-GCONT-1108                 | <span style="background-color:yellow">Continuar no inciso IX do art. 4º</span> | Portaria TRE-PB nº 18/2018, art. 4, IX    | -                          |
+
+* Apropriar Despesa de Prestação de Serviços
+* Apropriar Despesa de Fornecimento de Bens
+  
+### Processos de Trabalho Específicos: PTADM-GCONT-2100 - Competências do Fiscal do Contrato
+
+|Processos de Trabalho|Categoria de Processos de Trabalho                                           | Fundamento Legal/Normativo                  | Anotações/Observações       |
+|:--------------------|:----------------------------------------------------------------------------|:--------------------------------------------|:---------------------------|
+| PTADM-GCONT-2100    | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  | Portaria TRE-PB nº 18/2018, art. 5, XX       | -                          |
 
 ## Espécies de Contratos
 
