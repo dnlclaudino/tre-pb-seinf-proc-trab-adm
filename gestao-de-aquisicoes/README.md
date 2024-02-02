@@ -34,10 +34,10 @@ Para implementar e manter a gestão das contratações previstas no **plano anua
 
 | Código do<br>Processo de trabalho | Nome do Processo de Trabalho | Evento Inicial | Evento Final | Anotações |
 |:---:|:---|:---|:---|:---:|
-|PTADM-GA-001|[Planejar Gestão das Aquisições](./PTADM-GA-001.md)|-|-|-|
-|PTADM-GA-002|[Executar Atos Preparatórios das Aquisições]()|-|-|-|
-|PTADM-GA-003|[Controlar Aquisições]()|-|-|-|
-|PTADM-GA-004|[Prestar Contas da Gestão das Aquisições]()|-|-|-|
+|PTADM-GA-001|[Planejar Gestão das Contratações](./PTADM-GA-001.md)|-|-|-|
+|PTADM-GA-002|[Executar Atos Preparatórios das Contratações]()|-|-|-|
+|PTADM-GA-003|[Controlar Contratações]()|-|-|-|
+|PTADM-GA-004|[Prestar Contas da Gestão das Contratações]()|-|-|-|
 
 ## Diretrizes para Gestão das Contratações
 
