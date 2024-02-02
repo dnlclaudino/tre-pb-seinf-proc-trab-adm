@@ -20,9 +20,9 @@
   </tr>
 </table><br><br><br><br><br>
 
-# Gestão de Aquisições
+# Gestão de Contratações
 
-Para implementar e manter a gestão das aquisições para as contratações previstas no **plano anual de contratações (PACONT)**, bem como demais contratações não previstas inicialmente nesse plano, será adotado nos processos de trabalho abaixo, sempre que possível, o **modelo proposto pelo TCU para governança e gestão no setor público**:
+Para implementar e manter a gestão das contratações previstas no **plano anual de contratações (PACONT)**, bem como demais contratações não previstas inicialmente nesse plano, será adotado nos processos de trabalho abaixo, sempre que possível, o **modelo proposto pelo TCU para governança e gestão no setor público**:
 
 [^BRASIL-TCU-2024]
 
@@ -39,13 +39,20 @@ Para implementar e manter a gestão das aquisições para as contratações prev
 |PTADM-GA-003|[Controlar Aquisições]()|-|-|-|
 |PTADM-GA-004|[Prestar Contas da Gestão das Aquisições]()|-|-|-|
 
-## Diretrizes da Gestão das Aquisições
+## Diretrizes para Gestão das Contratações
+
+- As diretrizes da gestão de contratações estão previstas:
+  - **[Resolução CNJ nº 468/2022](https://1drv.ms/b/s!Au-CrfNP6c0bhqpkiw-zpIXV87Q-nQ?e=MYOyav)** - Dispõe sobre **DIRETRIZES** para as **contratações de Solução de Tecnologia da Informação e Comunicação** pelos órgãos submetidos ao controle administrativo e financeiro do Conselho Nacional de Justiça
+  - Na **[Resolução TSE Nº 23.702/2022](https://www.tse.jus.br/legislacao/compilada/res/2022/resolucao-no-23-702-de-9-de-junho-de-2022)** que dispõe sobre a **Política de Governança das Contratações** na **Justiça Eleitoral** e dá outras providências; e
+  - Na **[Resolução TRE-PB nº 14/2022](https://apps.tre-pb.jus.br/normas-portal/doc?tipo=norma&cod=1639&nom=TRE-PB-resolucao-14-2022.pdf)** que institui a **Política de Governança de Contratações** do **TRE-PB**;
 
 ### Política de Governança das Contratações do TRE-PB
 
 #### Diretrizes Gerais da Gestão das Contratações
 
-- **Art. 28.** Observadas as disposições legais a gestão das contratações do TRE-PB **DEVE**:
+- Nos termos da **[Resolução TRE-PB nº 14/2022](https://apps.tre-pb.jus.br/normas-portal/doc?tipo=norma&cod=1639&nom=TRE-PB-resolucao-14-2022.pdf)** que institui a **Política de Governança de Contratações** do **TRE-PB**:
+
+- **Art. 28.** Observadas as disposições legais a <u>gestão das contratações do TRE-PB</u> **DEVE**:
   - I - assegurar a seleção da proposta apta a gerar o resultado de contratação mais vantajoso para a Administração Pública, inclusive no que se refere ao ciclo de vida do objeto;
   - II - instituir instrumentos para mitigar o risco de contratações com sobrepreço ou com preços manifestamente inexequíveis e superfaturamento na execução do contrato;
   - III – assegurar, sempre que possível, meios para avaliar a eficácia das contratações, mediante a aferição de resultados e da qualidade dos bens, obras e serviços contratados;
@@ -61,11 +68,12 @@ Para implementar e manter a gestão das aquisições para as contratações prev
 
 #### Das Contratações de Solução de Tecnologia da Informação e Comunicação
 
-Art. 32. Além das diretrizes desta Resolução, garantida a compatibilidade normativa, as contratações de Solução de Tecnologia da Informação e Comunicação seguirão o disposto em normas específicas deste Tribunal sobre a matéria, bem como o disciplinamento do CNJ
+- Ainda de acordo com a **[Resolução TRE-PB nº 14/2022](https://apps.tre-pb.jus.br/normas-portal/doc?tipo=norma&cod=1639&nom=TRE-PB-resolucao-14-2022.pdf)** que institui a **Política de Governança de Contratações** do **TRE-PB**:
+  - **Art. 32.** Além das diretrizes desta Resolução, garantida a compatibilidade normativa, as contratações de Solução de Tecnologia da Informação e Comunicação seguirão o disposto em normas específicas deste Tribunal sobre a matéria, bem como o disciplinamento do CNJ
 
 ### Diretrizes do CNJ para Contratações de Soluções de TIC
 
-[Resolução CNJ nº 468/2022](https://1drv.ms/b/s!Au-CrfNP6c0bhqpkiw-zpIXV87Q-nQ?e=MYOyav) - Dispõe sobre **DIRETRIZES** para as contratações de Solução de Tecnologia da Informação e Comunicação pelos órgãos submetidos ao controle administrativo e financeiro do Conselho Nacional de Justiça
+- [Resolução CNJ nº 468/2022](https://1drv.ms/b/s!Au-CrfNP6c0bhqpkiw-zpIXV87Q-nQ?e=MYOyav) - Dispõe sobre **DIRETRIZES** para as contratações de Solução de Tecnologia da Informação e Comunicação pelos órgãos submetidos ao controle administrativo e financeiro do Conselho Nacional de Justiça
 
 ## Licença
 
