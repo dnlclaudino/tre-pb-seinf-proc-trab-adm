@@ -29,14 +29,99 @@
   - Gestão de Empenhos; e
   - Gestão de Pagamentos.
 
-## Processos de trabalho
+## A Execução dos Contratos
+
+- Art. 3º. A execução dos contratos deverá ser acompanhada e fiscalizada por meio de instrumentos de controle que compreendam a mensuração dos seguintes aspectos, quando for o caso:
+  - I - os resultados alcançados em relação ao contratado, com a verificação dos prazos de execução e da qualidade demandada;
+  - II - os recursos humanos empregados em função da quantidade e da formação profissional exigidas;
+  - III - a qualidade e quantidade dos recursos materiais utilizados;
+  - IV - a adequação dos serviços prestados à rotina de execução estabelecida;
+  - V - o cumprimento das demais obrigações decorrentes do contrato;
+  - VI - a satisfação do público usuário.
+    - § 1º. Deve ser estabelecido, desde o início da prestação dos serviços, mecanismos de controle da utilização dos materiais empregados nos contratos, para efeito de acompanhamento da execução do objeto bem como para subsidiar a estimativa para as futuras contratações;
+    - § 2º. A conformidade do material a ser utilizado na execução dos serviços deverá ser verificada junto com o documento da contratada que contenha a relação detalhada destes, de acordo com o estabelecido no contrato, informando as respectivas quantidades e especificações técnicas, tais como marca, qualidade e forma de uso.
+
+## Dos Modelos de Documentos na Gestão de Contratos do TRE-PB (Anexos/Formulários)
+
+- A par dos **modelo de documentos do SEI identificados** oportunamente nas respectivas documentações dos processos de trabalho, a Portaria [Portaria TRE-PB nº 18/2018](https://apps.tre-pb.jus.br/normas-portal/doc?tipo=norma&cod=1119&nom=TRE-PB-portaria-18-2018-dg.pdf) estabelece **modelos de formulário/documentos** a serem utilizados na **gestão de contratos** no TRE-PB
+- **Art. 8º**. Para melhor aplicação dos dispositivos contidos nesta norma e com vistas a auxiliar ao gestor e ao fiscal nas atividades de controle, ficam instituídos os formulários constantes nos anexos I a VIII desta portaria:
+  - a) Anexo I - Roteiro prático para acompanhamento de contratos;
+  - b) Anexo II - Registro de Ocorrências (preencher conforme a necessidade);
+  - c) Anexo III - Relatório Mensal de Acompanhamento do Contrato;
+  - d) Anexo IV - Controle dos contratos de compras parceladas;
+  - e) Anexo V - Controle do valor contratado;
+  - f) Anexo VI - Controle mensal de pagamento;
+  - g) Anexo VII - Autorização de Início de Serviço;
+  - h) Anexo VIII - Formulário de apropriação.
+  - **Parágrafo único.** Os formulários mencionados neste artigo, se utilizados, serão juntados ao processo respectivo.
+
+## Competências do Gestor do Contrato
+
+- **Art. 4º.** Compete ao gestor do contrato, subsidiado pelo fiscal:
+  - I - **PROMOVER** a juntada, no procedimento administrativo, de todos os documentos contratuais recebidos, inclusive os formulários mencionados no art. 8º desta portaria, conforme o caso;
+  - II - **OBSERVAR**, desde o início da vigência da avença, o cumprimento de todas as exigências contidas no edital e no próprio instrumento contratual;
+  - III - **AUTORIZAR** a contratada, observando-se os termos do edital, a iniciar a execução dos trabalhos através do documento denominado “Autorização de Início de Serviço” (anexo VII desta Portaria), fixando a data de início do prazo de execução estipulado no contrato;
+  - IV - antes de dar início à execução do ajuste, **REALIZAR** reunião com o fiscal do contrato, o preposto e os gerentes da contratada, os servidores da unidade requisitante e os responsáveis pela elaboração do termo de referência ou projeto básico para esclarecimento das obrigações contratuais e outros acertos, com a obrigatória lavratura de ata assinada pelos presentes;
+  - V - **ESTABELECER** reuniões periódicas para garantir a qualidade da execução do contrato e os respectivos resultados, com a obrigatória lavratura de ata assinada pelos presentes;
+  - VI - **ANOTAR** de forma clara, transparente e organizada, em registro próprio, todas as ocorrências relacionadas com a execução do contrato;
+  - VII - **MANTER** arquivo com dados atualizados do representante da contratada, contendo documentos pertinentes à sua qualificação, ao desempenho de suas atribuições e à forma do contato, bem como comunicar à Secretaria de Administração e Orçamento - SAO qualquer alteração dos dados cadastrais da empresa contratada;
+  - VIII - **COMUNICAR** à SAO, de imediato e formalmente, todo e qualquer descumprimento, pela contratada, das obrigações passíveis de rescisão contratual e/ou aplicação de penalidades.
+    - a) Em caso de indício de irregularidade no recolhimento das contribuições previdenciárias, nos contratos de serviços com regime de dedicação exclusiva de mão de obra, **a SAO deverá oficiar à Receita Federal** do Brasil (RFB);
+    - b) Em caso de indício de irregularidade no recolhimento da contribuição para o FGTS, os fiscais ou gestores de contratos de serviços com regime de dedicação exclusiva de mão de obra, **a SAO deverá oficiar ao Ministério do Trabalho**.
+  - IX - **MANTER** registro de informações do contrato sob sua gestão, verificando o curso do prazo de vigência, a necessidade de prorrogação ou de nova contratação e tomando as providências cabíveis que estiverem na esfera de suas atribuições;
+  - X – **OBSERVAR** a devida compatibilidade entre a garantia prestada pela contratada e a execução do contrato, sobretudo quanto aos prazos de vencimento e possíveis modificações decorrentes de eventual alteração contratual;
+  - XI – **OFICIAR** à contratada sobre a necessidade de atualização de documentos para manutenção das condições de habilitação ou atendimento às exigências legais supervenientes, estabelecendo prazo para cumprimento;
+  - XII – **REALIZAR** os seguintes **procedimentos com vistas ao pagamento** das obras, serviços e compras:
+    - a) **ANALISAR, CONFERIR E ATESTAR,** juntamente com o fiscal, as notas fiscais de forma clara, identificando-se com o nome, o cargo e a matrícula;
+    - b) **JUNTAR** a documentação relacionada no contrato para o pagamento, devendo esta ser enviada pela contratada junto com a nota fiscal;
+    - c) **CONFERIR** a regularidade fiscal da contratada junto à Previdência Social, ao FGTS (Fundo de Garantia por Tempo de Serviço), à Receita Federal e à Justiça do Trabalho (Certidão Negativa de Débitos Trabalhistas - CNDT);
+    - d) **EXIGIR** que o recolhimento das contribuições previdenciárias e do FGTS dos funcionários de empresa, eventualmente terceirizada pela contratada, alocados nas dependências dos imóveis do Tribunal, sejam entregues devidamente atestadas por um contador;
+    - e) **ENCAMINHAR** a documentação, junto com o formulário constante no Anexo VIII desta portaria, à unidade responsável pela apropriação correspondente, ficando esta incumbida de enviá-la à SAO para pagamento;
+    - f) **JUNTAR** o Relatório Mensal de Acompanhamento do Contrato (Anexo III desta Portaria) devidamente preenchido pelo fiscal;
+  - XII - no caso de SERVIÇOS TERCEIRIZADOS DE PRESTAÇÃO CONTINUADA:
+    - a) no momento em que a prestação de serviços é iniciada, **DEVE SER ELABORADA PLANILHA-RESUMO** de todo o contrato administrativo. Ela conterá informações sobre todos os empregados terceirizados que prestam serviços no órgão ou entidade, divididos por contrato, com os seguintes dados: nome completo, número de inscrição no CPF, função exercida, salário, adicionais, gratificações, benefícios recebidos, sua especificação e quantidade (vale-transporte, auxílio-alimentação), horário de trabalho e outros dados, se for o caso.
+    - b) **ACOMPANHAR** a efetiva incidência dos itens contidos nas planilhas de custos, quando existir, considerando os variáveis, adequando à realidade da contratação o que houver de previsão e, ao término de cada ano de vigência do contrato, informar à SAO quanto à necessidade do ajuste da planilha de custos à realidade, possibilitando economia de custos ao Tribunal, caso seja necessário diminuir ou suprimir algum índice considerado variável;
+    - c) nas eventuais repactuações do contrato, **VERIFICAR** a incidência de obrigações adicionais constantes na Convenção Coletiva de Trabalho - CCT;
+    - d) nos casos de rescisão contratual, **SOLICITAR** à contratada a comprovação do pagamento das verbas rescisórias, que deverá ser efetuada mediante a apresentação de documento atestado por contador que permita aferir seu adimplemento em relação a cada empregado alocado na execução do contrato, ou documento provando que os empregados serão realocados em outra atividade de prestação de serviços, sem que ocorra a interrupção do contrato de trabalho.
+  - XIII – **INFORMAR** por escrito à SAO sobre a proximidade do término do contrato, com a devida antecedência, observando o prazo mínimo de 120 (cento e vinte) dias, de forma a possibilitar que sejam promovidas as medidas necessárias visando à prorrogação do contrato ou a uma nova contratação;
+  - XIV – **COMUNICAR** à SAO eventual necessidade de acréscimos ou supressões ao objeto contratado, tão logo haja constatação de alteração da demanda ou por provocação de pessoa interessada, visando à economicidade e à eficiência da execução contratual;
+  - XV – **OBSERVAR** as normas e orientações da Coordenadoria de Orçamento e Finanças – COF acerca do encerramento do exercício;
+  - XVI – **RELACIONAR** ao processo principal todos os processos referentes ao contrato, utilizando-se, para tanto, do sistema de processo eletrônico.
+
+
+## Competências do Fiscal do Contrato
+
+- **Art. 5º.** Compete ao fiscal do contrato:
+  - I - **ACOMPANHAR**, in loco, a execução do contrato, registrando os pontos críticos encontrados, inclusive com a produção de provas, datando, assinando e colhendo a assinatura do preposto da contratada para instruir possível procedimento visando à aplicação de sanção contratual;
+  - II - **EXIGIR** que a contratada substitua os produtos ou bens que se apresentem defeituosos ou com prazo de validade vencido ou próximo do vencimento e que, por esses motivos, inviabilizem o recebimento definitivo, a guarda ou a utilização pelo Tribunal;
+  - III - **COMUNICAR** imediatamente à contratada, quando o fornecimento seja de obrigação desta, a escassez de material cuja falta esteja dificultando ou venha a dificultar a execução dos serviços;
+  - IV - **RECUSAR** os serviços executados em desacordo com o pactuado e determinar o desfazimento, o ajuste ou a correção;
+  - V - **COMUNICAR** à contratada, formalmente, com comprovação do recebimento a ser juntada aos autos, eventuais irregularidades na execução contratual, estabelecendo prazo para solução;
+  - VI – **COMUNICAR** à contratada os danos causados por seus empregados, requerendo providências reparadoras e estabelecendo prazo e cientificando, imediatamente, ao gestor;
+  - VII - **RECEBER**, provisoriamente, junto com o gestor, o objeto do contrato sob sua responsabilidade, mediante termo circunstanciado ou recibo, assinado pelas partes, recusando produtos ou bens que não correspondam às especificações do contrato;
+  - VIII - **TESTAR** o funcionamento de equipamentos e registrar a conformidade em documento devidamente assinado;
+  - IX - <span style="background-color:yellow">**EMITIR** o <u>**Relatório Mensal de Acompanhamento do Contrato** (Anexo III desta portaria)</u></span> devidamente preenchido;
+  - X - **EXIGIR**, para efeito de fiscalização, os registros dos empregados da contratada alocados no serviço;
+  - XI - **VERIFICAR** a utilização dos equipamentos de proteção individual – EPI estabelecidos pela legislação pertinente, exigindo do preposto da contratada a imediata regularização do seu uso; no caso de descumprimento das normas de segurança do trabalho e na hipótese do não atendimento às exigências, comunicar ao gestor para a promoção do processo de aplicação de sanção contratual;
+  - XII - **EXIGIR**, por intermédio do preposto, a utilização de crachá de identificação e uniforme pelos empregados da contratada, bem assim que estes mantenham conduta compatível com o serviço público, pautada pela ética e urbanidade no atendimento;
+  - XIII - **EXIGIR** da contratada, no caso de obras, a manutenção permanente de um Diário de Obra no local de execução dos serviços, na formatação previamente combinada, com folhas devidamente numeradas e assinadas pelas partes, em que serão feitas as anotações diárias sobre o andamento dos trabalhos, tais como indicação técnica, início e término de etapas de serviço, causas e datas de início e término de eventuais interrupções dos serviços, recebimento de materiais e demais assuntos que requeiram providências;
+  - XIV - **ZELAR** para que a contratada registre as ocorrências referidas no inciso XIII deste artigo no Diário de Obra, com vistas a compor o processo e servir como documento para dirimir dúvidas e embasar informações acerca de eventuais reivindicações;
+  - XV – no caso de **SERVIÇOS TERCEIRIZADOS DE PRESTAÇÃO CONTINUADA**:
+    - a) **VERIFICAR** a conformidade do material a ser utilizado na execução dos serviços, por meio de documento da contratada que contenha a relação minuciosa dos itens, nas quantidades e especificações definidas no contrato;
+    - b) **VERIFICAR** o resultado da prestação do serviço com base no Instrumento de Medição de Resultado - IMR (Instrução Normativa nº 05/2017 - Ministério do Planejamento, Desenvolvimento e Gestão – MPDG – ANEXO V-B), quando houver;
+    - c) **MONITORAR** constantemente os serviços para evitar a diminuição no nível de qualidade, intervindo para corrigir ou aplicar sanções quando verificar desconformidade contínua na prestação dos serviços;
+    - d) **CONFERIR** por amostragem, diariamente, os empregados terceirizados que estão prestando serviços e em quais funções e se estão cumprindo a jornada de trabalho.
+  - XVI - nos contratos de serviços essenciais prestados longe da sede do Tribunal, e diante da operacionalidade da concessionária de serviço público, havendo a necessidade de as faturas destes serviços serem atestadas e liquidadas por um gestor lotado na sede do TRE-PB, solicitar aos Chefes de Cartório e NATU, onde os serviços estejam sendo efetivamente realizados, que enviem, mensalmente, os dados registrados nos medidores, para aferir o consumo e possibilitar os ajustes em faturas nos meses subsequentes;
+  - XVII - **ANALISAR, CONFERIR E ATESTAR**, junto com o gestor, as notas fiscais de forma clara, identificando-se com nome, cargo e matrícula.
+
+## Processos de Trabalho de Gestão de Contratos
 
 | Código do<br>Processo de trabalho | Nome do Processo de Trabalho                   | Evento Inicial | Evento Final | Anotações |
 |:---------------------------------:|:-----------------------------------------------|:---------------|:-------------|:---------:|
-|          PTADM-GCONT-010          | [nome-do-processo-de-trabalho]()               | -              | -            |     -     |
-|          PTADM-GCONT-020          | [nome-do-processo-de-trabalho]()               | -              | -            |     -     |
-|          PTADM-GCONT-031          | [Apropriar Despesa de Prestação de Serviços]() | -              | -            |     -     |
-|          PTADM-GCONT-032          | [Apropriar Despesa de Fornecimento de Bens]()  | -              | -            |     -     |
+|          PTADM-GCONT-1100          | [nome-do-processo-de-trabalho]()               | -              | -            |     [Portaria TRE-PB DG nº 18/2018](https://github.com/dnlclaudino/tre-pb-seinf-proc-trab-adm/blob/master/gestao-de-contratos/portaria-tre-pb-n18-2018.md)     |
+|          PTADM-GCONT-1020          | [nome-do-processo-de-trabalho]()               | -              | -            |     -     |
+|          PTADM-GCONT-1031          | [Apropriar Despesa de Prestação de Serviços]() | -              | -            |     -     |
+|          PTADM-GCONT-1032          | [Apropriar Despesa de Fornecimento de Bens]()  | -              | -            |     -     |
 
 ## Espécies de Contratos
 
