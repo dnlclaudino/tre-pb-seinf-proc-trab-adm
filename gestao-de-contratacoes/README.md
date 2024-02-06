@@ -24,13 +24,14 @@
 
 Para implementar e manter a gestão das contratações previstas no **plano anual de contratações (PACONT)**, bem como demais contratações não previstas inicialmente nesse plano, será adotado nos processos de trabalho abaixo, sempre que possível, o **modelo proposto pelo TCU para governança e gestão no setor público**:
 
+<p style="text-align:center"><b>Figura:</b> Modelo de governança e gestão no setor público </p> 
+
 [^BRASIL-TCU-2024]
 
-<p style="text-align:center"><b>Figura:</b> Modelo de governança e gestão no setor público </p>
-
-<p style="text-align:center"><img src="../governanca-e-gestao-estrategica/imagens/tcu-modelo-de-governaca-e-gestao-no-servico-publico.jpg" width="550"></p>
-
-<p style="text-align:center"><b>Fonte:</b> <a style="text-align:center" href="#referências-bibliográficas">TCU (2024)</a>.</p>
+<figure>
+  <img src="../governanca-e-gestao-estrategica/imagens/tcu-modelo-de-governaca-e-gestao-no-servico-publico.jpg" alt="TCU - Modelo de governaça e gestão no servico público." />
+  <figcaption style="text-align:center"><b>Fonte:</b> TCU (2024)</figcaption>
+</figure>
 
 | Código do<br>Processo de trabalho | Nome do Processo de Trabalho | Evento Inicial | Evento Final | Anotações |
 |:---:|:---|:---|:---|:---:|
