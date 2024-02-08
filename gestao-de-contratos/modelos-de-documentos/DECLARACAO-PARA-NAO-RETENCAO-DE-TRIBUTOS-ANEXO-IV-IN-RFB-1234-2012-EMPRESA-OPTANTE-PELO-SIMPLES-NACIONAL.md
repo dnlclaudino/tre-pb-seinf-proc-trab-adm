@@ -1,6 +1,10 @@
+# DECLARACAO DE NÃO OPTANTE DO SIMPLES NACIONAL
+
+- Caso a empresa <u>**não seja optante**</u> pelo SIMPLES NACIONAL, basta que ela informe FORMALMENTE por e-mail.
+
 # DECLARACAO PARA NÃO RETENÇÃO DE TRIBUTOS (ANEXO IV IN RFB 1234/2012) PARA EMPRESA OPTANTE PELO SIMPLES NACIONAL
 
-- Se a empresa é optante do SIMPLES NACIONAL, ela <u>**deve**</u> DECLARAR ao TRE-PB essa situação.
+- Se a empresa <u>**é optante**</u> do SIMPLES NACIONAL, ela <u>**deve**</u> DECLARAR ao TRE-PB essa situação.
 
 <center>
 
