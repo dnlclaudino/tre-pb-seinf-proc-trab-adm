@@ -29,7 +29,7 @@ Este repositório contém a gestão do conhecimento dos **processos de trabalho 
 |1|[Gestão de Demandas](./gestao-de-demandas/README.md)|
 |2|[Governança e Gestão da Estratégia](./governanca-e-gestao-estrategica/README.md)|
 |3|[Gestão do Orçamento](./gestao-do-orcamento/README.md)|
-|4|[Gestão de Aquisições](./gestao-de-aquisicoes/README.md)|
+|4|[Gestão de Contratações](./gestao-de-contratacoes/README.md)|
 |5|[Gestão de Contratos](./gestao-de-contratos/README.md)|
 |6|[Gestão de Atas de Registro de Preços(ARPs)](./gestao-de-arps/README.md)|
 |7|[Gestão de Riscos](./gestao-de-riscos/README.md)|
