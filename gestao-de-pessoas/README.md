@@ -44,7 +44,7 @@
 | Código do<br>Processo de trabalho | Nome do Processo de Trabalho | Evento Inicial | Evento Final | Anotações |
 |:---:|:---|:---|:---|:---:|
 |PTADM-GPESS-SE-001|[Identificar Necessidade de Serviço Extraordinário]()|-|-|-|
-|PTADM-GPESS-SE-002|[Solicitar Serviço Extraordinário]()|-|-|-|
+|PTADM-GPESS-SE-002|[Solicitar Serviço Extraordinário](./PTADM-GPESS-SE-001.md)|-|-|-|
 |PTADM-GPESS-SE-003|[Registrar Atividades em Serviço Extraordinário]()|-|-|-|
 |PTADM-GPESS-SE-004|[Registrar Custos Serviço Extraordinário]()|-|-|-|
 |PTADM-GPESS-SE-005|[Atualizar Informações de Apoio ao Serviço Extraordinário]()|-|-|-|
