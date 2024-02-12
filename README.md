@@ -26,6 +26,7 @@ Este repositório contém a gestão do conhecimento dos **processos de trabalho 
 
 |#|Macroprocesso de trabalho|
 |:---:|:---|
+|0|[Gestão de Pessoas](./gestao-de-pessoas/README.md)|
 |1|[Gestão de Demandas](./gestao-de-demandas/README.md)|
 |2|[Governança e Gestão da Estratégia](./governanca-e-gestao-estrategica/README.md)|
 |3|[Gestão do Orçamento](./gestao-do-orcamento/README.md)|
