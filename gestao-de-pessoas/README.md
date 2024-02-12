@@ -32,6 +32,8 @@
   - Desempenho
   - Desenvolvimento de Pessoal
   - Qualidade de Vida no Trabalho
+  - Política de reconhecimento;
+  - Gestão do clima organizacional;
 
 ## Necessidades na Gestão de Pessoas
 
