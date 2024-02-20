@@ -29,37 +29,37 @@
 
 ### Início em Janeiro/2024
 
-| ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim      | R$           | SETOR       | Observação                           |
-| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | ------------------------------------ |
-| 1  | Implantação de links de contingência nas zonas eleitorais | Contratação de solução SDWAN nas zonas eleitorais                                                            | 01/01/2024 | 18/12/2024 | 1.300.000,00 | COINF       | custo do contrato da tely + telebras |
-| 2  | Virtualização da central telefônica                       | Contratação serviço de pabx virtual com plano de minutos ilimitado, agregando solução multicanal             | 01/01/2024 | 31/07/2024 | 210.000,00   | COINF       |                                      |
-| 3  | Atualização da solução de backup                          | Melhoria na solução de backup em appliance com a segregação de 50% dos dispositivos no fórum eleitoral       | 01/01/2024 | 29/02/2024 | -            | SEINF       |                                      |
-| 4  | Implantação de firewall de borda                          | Substituição da solução atualmente em uso por solução mais moderna e robusta                                 | 01/01/2024 | 18/03/2024 | 880.000,00   | SEINF       |                                      |
+| ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim      | Custo (R$)           | SETOR       | Situação da Iniciativa     |Observação       |
+| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | --------------- |-------------------------|
+| 1  | Implantação de links de contingência nas zonas eleitorais | Contratação de solução SDWAN nas zonas eleitorais                                                            | 01/01/2024 | 18/12/2024 | 1.300.000,00 | COINF       | Iniciado | custo do contrato da tely + telebras |
+| 2  | Virtualização da central telefônica                       | Contratação serviço de pabx virtual com plano de minutos ilimitado, agregando solução multicanal             | 01/01/2024 | 31/07/2024 | 210.000,00   | COINF       | Iniciado |-|
+| 3  | Atualização da solução de backup                          | Melhoria na solução de backup em appliance com a segregação de 50% dos dispositivos no fórum eleitoral       | 01/01/2024 | 29/02/2024 | -            | SEINF       | Não Iniciado |-|
+| 4  | Implantação de firewall de borda                          | Substituição da solução atualmente em uso por solução mais moderna e robusta                                 | 01/01/2024 | 18/03/2024 | 880.000,00   | SEINF       | Não iniciado |-|
 
 ### Início em Fevereiro/2024
 
-| ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim      | R$           | SETOR       | Observação                           |
-| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | ------------------------------------ |
-| 5  | Atualização do parque de ativos de rede                   | Implantação de novos switches de núcleo e de borda na sede do TRE-PB                                         | 01/02/2024 | 18/06/2024 | -            | SEINF       |                                      |
-| 6  | Ampliação da telefonia IP                                 | Substituição de telefones analógicos por telefones IP na sede e zonas eleitorais da capital e Campina Grande | 01/02/2024 | 18/06/2024 | 140.000,00   | SEINF       |                                      |
-| 7  | Atualização do parque computacional das zonas eleitorais  | Substituição dos micromcomputadores de atendimento, voips e impressoras nas zonas eleitorais                 | 01/02/2024 | 18/06/2024 | 60.000,00    | SESOP       | Custo de diárias                     |
-| 8  | Monitaremento de serviços essenciais                      | Implantação de solução de monitoramento de serviços essenciais mediante uso de dashboards                    | 01/02/2024 | 18/12/2024 | -            | SEINF       |                                      |
+| ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim      | Custo (R$)         | SETOR       | Situação da Iniciativa     |Observação       |
+| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | --------------- |-------------------------|
+| 5  | Atualização do parque de ativos de rede                   | Implantação de novos switches de núcleo e de borda na sede do TRE-PB                                         | 01/02/2024 | 18/06/2024 | -            | SEINF       | Iniciado | - |
+| 6  | Ampliação da telefonia IP                                 | Substituição de telefones analógicos por telefones IP na sede e zonas eleitorais da capital e Campina Grande | 01/02/2024 | 18/06/2024 | 140.000,00   | SEINF       | Iniciado | - |
+| 7  | Atualização do parque computacional das zonas eleitorais  | Substituição dos micromcomputadores de atendimento, voips e impressoras nas zonas eleitorais                 | 01/02/2024 | 18/06/2024 | 60.000,00    | SESOP       | Não Iniciado | Custo de diárias |
+| 8  | Monitaremento de serviços essenciais                      | Implantação de solução de monitoramento de serviços essenciais mediante uso de dashboards                    | 01/02/2024 | 18/12/2024 | -            | SEINF       | Iniciado | - |
 
 ### Início em Fevereiro/2025
-| ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim      | R$           | SETOR       | Observação                           |
-| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | ------------------------------------ |
-| 9  | Linux desktop| Desenvolvimento de solução de uso de Linux em computadores desktops com automação de configurações           | 01/02/2025 | 01/07/2025 | -            | SESOP/SEINF |                                      | 
+| ID | Nome                                                      | Descrição                                                                                                    | Início     | Fim        | Custo (R$)   | SETOR       | Situação da Iniciativa  | Observação       |
+| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | ----------------------- |------------------|
+| 9  | Linux desktop| Desenvolvimento de solução de uso de Linux em computadores desktops com automação de configurações                                                        | 01/02/2025 | 01/07/2025 | -            | SESOP/SEINF | Não Iniciado            | - |
 
 ### Início em Julho/2025
 
-| ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim      | R$           | SETOR       | Observação                           |
-| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | ------------------------------------ |
-| 10 | Integração do domínios                                    | Integrar o domínio das zonas eleitorais ao domínio da sede                                                   | 01/07/2025 | 18/12/2025 | -            | SEINF       |                                      |
+| ID | Nome                                                      | Descrição                                                                                                    | Início     | Fim        | Custo (R$)   | SETOR      | Situação da Iniciativa     |Observação    |
+| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | -----------| ---------------------------|--------------|
+| 10 | Integração do domínios                                    | Integrar o domínio das zonas eleitorais ao domínio da sede                                                   | 01/07/2025 | 18/12/2025 | -            | SEINF      | Não Iniciado               | -            |
 
 ### Início em Setembro/2025
-| ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim      | R$           | SETOR       | Observação                           |
-| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | ----------- | ------------------------------------ |
-| 11 | Drive em nuvem on premise                                 | Implantação de solução de drive em nuvem na infraestrutura do TRE-PB                                         | 01/09/2025 | 18/12/2025 | -            | SEINF       |                                      |
+| ID | Nome                                                      | Descrição                                                                                                    | Início   | Fim          | Custo (R$)   | SETOR      | Situação da Iniciativa | Observação              |
+| -- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------ | -----------|------------------------|-------------------------|
+| 11 | Drive em nuvem on premise                                 | Implantação de solução de drive em nuvem na infraestrutura do TRE-PB                                         | 01/09/2025 | 18/12/2025 | -            | SEINF      | Não iniciado | - |
 
 
 ## Processos de Trabalho
