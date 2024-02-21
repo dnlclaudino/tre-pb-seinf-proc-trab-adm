@@ -1,2 +1,5 @@
 *.pdf
 *.tmp
+
+# Exceções
+!gestao-de-contratacoes/pacont-2024/itens-05-06-link-stre-forum-stre-internet/modelos-de-contratacoes/*.pdf
