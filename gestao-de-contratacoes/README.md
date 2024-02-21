@@ -33,12 +33,36 @@ Para implementar e manter a gestão das contratações previstas no **plano anua
   <figcaption style="text-align:center"><b>Fonte:</b> TCU (2024)</figcaption>
 </figure>
 
+## Processos de Trabalho
+
 | Código do<br>Processo de trabalho | Nome do Processo de Trabalho | Evento Inicial | Evento Final | Anotações |
 |:---:|:---|:---|:---|:---:|
 |PTADM-GA-001|[Planejar Gestão das Contratações](./PTADM-GA-001.md)|-|-|-|
 |PTADM-GA-002|[Executar Atos Preparatórios das Contratações]()|-|-|-|
 |PTADM-GA-003|[Controlar Contratações]()|-|-|-|
 |PTADM-GA-004|[Prestar Contas da Gestão das Contratações]()|-|-|-|
+
+## Plano Anual de Contratações do TRE-PB - 2024
+
+|#    |Processo(s) SEI     | Item(ns) do PACONT 2024 | Objeto de Contratação | Responsável/Apoio | Progresso | Atualizado Por / <br>Data Última<br>Atualização |
+|:---:|:------------------:|:---------------------------------|:--------------|:--------------:|:-----------:|:------------:|
+|1|Processo SEI nº 0001319-96.2024.6.15.8000<br>Processo SEI nº 0001319-96.2024.6.15.8000 |- Item 05 (Link STRE-ForumJPA)<br>Item 06 (Link STRE Internet)|[CONTRATAÇÃO DO SERVIÇO DE LINKS DE INTERNET (DEDICADO E COMPARTILHADO) E DO SERVIÇO DE COMUNICAÇÃO DE DADOS DEDICADO PONTO A PONTO, PARA ATENDER ÀS DEMANDAS DO TRIBUNAL REGIONAL ELEITORAL DA PARAÍBA](./pacont-2024/itens-05-06-link-stre-forum-stre-internet/README.md)|Responsável: Pedro/SEINF<br>Apoio: Daniel Claudino/SEINF|BC / DFD ✅ ✅/ ETP ☑ / TR 🔴/ Pesq. Preços ⬜ / Riscos 🔴| Daniel Claudino/SEINF<br> em 21/02/2024|
+|2|Processo SEI nº 0001179-62.2024.6.15.8000 |- Item 24 (Licença Veeam)<br> - Item 26 (Licenças Microsoft)|-|Responsável: Pedro/SEINF<br>Apoio: Genival/SEINF|AC / DFD ✅ ✅/ ETP ⬜/ TR 🔴/ Pesq. Preços ⬜ / Riscos 🔴| Daniel Claudino/SEINF<br> em 21/02/2024|
+|3|Processo SEI nº 0001295-68.2024.6.15.8000 |- Item 27 (Certificado SSL)|-|Responsável: Pedro/SEINF<br>Apoio: Daniel Claudino/SEINF|BC / DFD ✅ ✅/ ETP⬜ / TR 🔴/ Pesq. Preços ⬜ / Riscos 🔴| Daniel Claudino/SEINF<br> em 21/02/2024|
+|4|Processo SEI nº 0001293-98.2024.6.15.8000 |- Item 25 (Rack Cofre)|-|Responsável: Pedro/SEINF<br>Apoio: Daniel Claudino/SEINF|AC / DFD ✅ ✅/ ETP ⬜ / TR 🔴/ Pesq. Preços ⬜ / Riscos 🔴| Daniel Claudino/SEINF<br> em 21/02/2024|
+|5|Processo SEI nº 0001324-21.2024.6.15.8000 |- Item 07 (Central Telefônica STRE)|-|Responsável: Pedro/SEINF<br>Apoio: Mário/SEINF|AC / DFD ✅ ✅/ ETP ⬜ / TR 🔴/ Pesq. Preços ⬜ / Riscos 🔴| Daniel Claudino/SEINF<br> em 21/02/2024|
+
+- **LEGENDA:**
+  - 🔴 Não Iniciado
+  - ☑ Documento em Elaboração ou Atividade em Andamento
+  - ✅⬜ Documento Minutado Aguardando Revisão/Assinatura; ou Atividade Aguardando Homologação
+  - ✅✅ Documento Elaborado e Assinado ou Atividade Concluída
+  - ⚠ Necessidade de Atenção ou Prioridade
+  - **AC** = ALTA COMPLEXIDADE
+  - **BC** = BAIXA COMPLEXIDADE
+
+<!-- |1|Processo SEI nº -|Item -- (XXXXXXXX)|Responsável: Pedro/SEINF|-| Daniel Claudino/SEINF<br> em 21/02/2024| -->
+
 
 ## Diretrizes para Gestão das Contratações
 
