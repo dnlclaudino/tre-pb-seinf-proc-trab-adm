@@ -1,4 +1,35 @@
+![center](../../../figuras/tre-pb-cabecalo-padrao-stic-coinf-seinf.png)
+
+<table align="right" border="0">
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://github.com/dnlclaudino/tre-pb-seinf-proc-trab-adm/#readme">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-casa3.png?raw=true" heigh="60" width="60"><br>Início do Repositório<br>Apoio Administartivo<br>à COINF/SEINF
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/dnlclaudino/tre-pb-seinf-proc-trab-adm/blob/master/gestao-de-contratacoes/README.md">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-casa2.png?raw=true" heigh="60" width="60"><br>Início da Gestão<br>de Contratações
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/pdf/pdf.png?raw=true" heigh="60" width="60"><br>Baixar em PDF
+      </a>
+    </td>
+  </tr>
+</table><br><br><br><br><br><br><br>
+
 # Contratação Do Serviço De Links De Internet (Dedicado E Compartilhado) E Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto, Para Atender Às Demandas Do Tribunal Regional Eleitoral Da Paraíba
+
+<center>
+
+|                           Progresso Geral da Contratação                               |
+|:--------------------------------------------------------------------------------------:|
+|                             🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 10%                                |
+  Obs: Veja a seção <a href="#Orientações">Orientações<a> abaixo, para mais informações.
+
+</center>
 
 #### Referência à Gestão de Licitações e Contratos TRE-PB
 
@@ -18,15 +49,6 @@
       - Do Serviço De Links De Internet (Dedicado E Compartilhado);
       - Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto;
   - [0004089-38.2019.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=569544) - A partir do Processo do **Pregão Eletrônico nº 39/2018** SEI nº [0004556-51.2018.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=375546), **foi solicitada**, nos presentes autos, a **contratação de 04 (quatro) unidades do item 3 (Circuito digital de comunicação de dados comvelocidade de 1Gbps) da ARP nº 03/2019 (0536538)** com vistas a manter o provimento do serviço de conexão entre o prédio sede do TRE-PB e o fórum eleitoral de João Pessoa - PB, com vigência a partir do dia 04 de agosto de 2019.
-
-<center>
-
-|                           Progresso Geral da Contratação                               |
-|:--------------------------------------------------------------------------------------:|
-|                             🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 10%                                |
-  Obs: Veja a seção <a href="#Orientações">Orientações<a> abaixo, para mais informações.
-
-</center>
 
 ## Elaboração dos Documentos de Planejamento da Contratação
 
