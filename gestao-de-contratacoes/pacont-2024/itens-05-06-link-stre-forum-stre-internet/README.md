@@ -60,7 +60,7 @@
 
 ||                           Progresso da Elaboração do Documento                         |
 |:---:|:--------------------------------------------------------------------------------------:|
-|[<img width="60px" src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/google-docs/icone-google-docs.png?raw=true">]()|🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%|
+|[<img width="60px" src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/google-docs/icone-google-docs.png?raw=true">](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=1784823&id_documento=1788151)|🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%|
 
 
 ### Estudos Técnicos Preliminares
