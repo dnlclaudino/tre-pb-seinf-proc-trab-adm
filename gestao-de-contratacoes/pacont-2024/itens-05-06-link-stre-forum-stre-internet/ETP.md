@@ -8,8 +8,8 @@
 <h2>Origem da Demanda</h2>
 
 - [Plano de Contratações](https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes) 
-  - Item 05: Do serviço de link de fibra óptica dedicado e ponto a ponto para comunicação de dados entre o STRE e o Fórum Eleitoral de João Pessoa/PB;
-  - Item 06: Do serviço de links (dedicado e compartilhado) para comunicação de dados entre a STRE e a Internet;
+  - **Item 05**: Do serviço de link de fibra óptica dedicado e ponto a ponto para comunicação de dados entre o STRE e o Fórum Eleitoral de João Pessoa/PB;
+  - **Item 06**: Do serviço de links (dedicado e compartilhado) para comunicação de dados entre a STRE e a Internet;
 - [0001319-96.2024.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=1784823) - Processo SEI da NOVA CONTRATAÇÃO (PACONT 2024 / Itens 05 e 06)
 
 <center>
