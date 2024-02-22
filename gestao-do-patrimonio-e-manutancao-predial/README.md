@@ -20,12 +20,21 @@
   </tr>
 </table><br><br><br><br><br>
 
-# Gestão do Patrimônio
+# Gestão do Patrimônio e Manutenção Predial
+
+## Gestão do Patrimônio
 
 | Código do<br>Processo de trabalho | Nome do Processo de Trabalho | Evento Inicial | Evento Final | Anotações |
 |:---:|:---|:---|:---|:---:|
 |PTADM-GPAT-001|[nome-do-processo-de-trabalho]()|-|-|-|
 |PTADM-GPAT-002|[nome-do-processo-de-trabalho]()|-|-|-|
+
+# Manutenção Predial
+
+| Código do<br>Processo de trabalho | Nome do Processo de Trabalho | Evento Inicial | Evento Final | Anotações |
+|:---:|:---|:---|:---|:---:|
+|PTADM-MP-001|[nome-do-processo-de-trabalho]()|-|-|-|
+|PTADM-MP-002|[nome-do-processo-de-trabalho]()|-|-|-|
 
 ## Licença
 

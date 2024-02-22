@@ -42,18 +42,23 @@
 
 <hr>
 
-## I - Necessidade da contratação:
-{i) Com base no DFD}
+## I - Necessidade da contratação
 
-## II - Equipe de planejamento:
-{i) Identificar os servidores que participarão da equipe de planejamento da contratação.}
+- (i) Com base no DFD
 
-## III - Normativos que disciplinam os serviços ou a aquisição a serem contratados, de acordo com a sua natureza:
-- (i) Listar e examinar os normativos que disciplinam os serviços a serem contratados, de acordo com a sua natureza;}
+## II - Equipe de planejamento
 
-## IV - Referência a outros instrumentos de planejamento do órgão ou entidade (se houver):
+- (i) Identificar os servidores que participarão da equipe de planejamento da contratação.
 
-- (i) Indicar se a contratação está alinhada ao Planejamento Estratégico ou a outros planos, a exemplo do Plano de Logística Sustentável (PLS),  Planejamento Anual das Contratações, Planos do órgão governante superior (e.g. TSE, CNJ ou SLTI), quando for o caso.}
+## III - Normativos que disciplinam os serviços ou a aquisição a serem contratados, de acordo com a sua natureza
+
+- (i) Listar e examinar os normativos que disciplinam os serviços a serem contratados, de acordo com a sua natureza;
+
+## IV - Referência a outros instrumentos de planejamento do órgão ou entidade
+
+- <span style="background-color:yellow">**Preencher se houver**</span>
+
+- (i) Indicar se a contratação está alinhada ao Planejamento Estratégico ou a outros planos, a exemplo do Plano de Logística Sustentável (PLS),  Planejamento Anual das Contratações, Planos do órgão governante superior (e.g. TSE, CNJ ou SLTI), quando for o caso.
 
 ## V - Requisitos da contratação:
 
@@ -72,21 +77,23 @@
 - (iv) Para os casos em que houver a necessidade de materiais específicos, cuja previsibilidade não se mostra possível antes da contratação, avaliar a inclusão de mecanismos para tratar essa questão.
 
 ## VII - Levantamento de mercado e justificativa da escolha do tipo de solução a contratar:
-{i) Considerar diferentes fontes, podendo ser analisadas contratações similares feitas por outros órgãos e entidades, com objetivo de identificar a existência de novas metodologias, tecnologias ou inovações que melhor atendam às necessidades da Administração
-ii) Elencar as possíveis soluções que, por ventura, possam atender a necessidade do órgão.}
+
+- (i) Considerar diferentes fontes, podendo ser analisadas contratações similares feitas por outros órgãos e entidades, com objetivo de identificar a existência de novas metodologias, tecnologias ou inovações que melhor atendam às necessidades da Administração
+- (ii) Elencar as possíveis soluções que, por ventura, possam atender a necessidade do órgão.
 
 ## VIII - Providências para adequação do ambiente do órgão
 
-{i) avaliar se a contratação vai demandar espaço de armazenamento, alteração na estrutura física, capacitação de servidores, etc)
-ii) Elaborar cronograma com todas as atividades necessárias à adequação do ambiente da organização para que a contratação surta seus efeitos e com os responsáveis por esses ajustes nos diversos setores, se for o caso.
-iii) Considerar a necessidade de capacitação de servidores para atuarem na contratação e fiscalização dos serviços de acordo com as especificidades do objeto a ser contratado.
-iv) Juntar o cronograma ao processo e incluir, no Mapa de Riscos, os riscos de a contratação fracassar caso os ajustes não ocorram em tempo.
-v) Não havendo necessidade de adequação do ambiente, declarar formalmente essa condição.}
+- (i) avaliar se a contratação vai demandar espaço de armazenamento, alteração na estrutura física, capacitação de servidores, etc)
+- (ii) Elaborar cronograma com todas as atividades necessárias à adequação do ambiente da organização para que a contratação surta seus efeitos e com os responsáveis por esses ajustes nos diversos setores, se for o caso.
+- (iii) Considerar a necessidade de capacitação de servidores para atuarem na contratação e fiscalização dos serviços de acordo com as especificidades do objeto a ser contratado.
+- (iv) Juntar o cronograma ao processo e incluir, no Mapa de Riscos, os riscos de a contratação fracassar caso os ajustes não ocorram em tempo.
+- (v) Não havendo necessidade de adequação do ambiente, declarar formalmente essa condição.
 
-IX - Estimativas de preços ou preços referenciais:
-{i) São as estimativas preliminares dos preços dos itens a contratar feitas com base no levantamento de mercado, no intuito de apoiar a análise de viabilidade da contratação, em especial com respeito à relação de custo-benefício da contratação (se houver, mais de uma solução possível, apresentar estimativa de preço para todas elas.
-ii) Definir e documentar o método para estimativa de preços ou meios de previsão de preços referenciais..
-iii) Incluir nos autos as memórias de cálculo da estimativa de preços ou dos preços referenciais e os documentos que lhe dão suporte.}
+## IX - Estimativas de preços ou preços referenciais
+
+- (i) São as estimativas preliminares dos preços dos itens a contratar feitas com base no levantamento de mercado, no intuito de apoiar a análise de viabilidade da contratação, em especial com respeito à relação de custo-benefício da contratação (se houver, mais de uma solução possível, apresentar estimativa de preço para todas elas.
+- (ii) Definir e documentar o método para estimativa de preços ou meios de previsão de preços referenciais..
+- (iii) Incluir nos autos as memórias de cálculo da estimativa de preços ou dos preços referenciais e os documentos que lhe dão suporte.
 
 ## X - Descrição da solução como um todo (preencher caso a solução demande a contratação de várias soluções em separado)
 
@@ -103,17 +110,18 @@ A equipe de planejamento da contratação realizará os estudos técnicos prelim
 
 - (i) Declarar os benefícios diretos e indiretos que o órgão  almeja com a contratação, em termos de economicidade, eficácia, eficiência, de melhor aproveitamento dos recursos humanos, materiais e financeiros disponíveis, inclusive com respeito a impactos ambientais positivos (por exemplo, diminuição do consumo de papel ou de energia elétrica), bem como, se for o caso, de melhoria da qualidade de produtos ou serviços oferecidos à sociedade.
 
-## XIII - Objeto:
+## XIII - Objeto
 
 - (i) Descrever o objeto da contratação (a definição do objeto foi definido após a identificação da melhor solução que atende a necessidade)
 
 ## XIV - Declaração da viabilidade ou não da contratação
 
-- (i) Explicitamente declarar que a contratação é viável ou que a contratação não é viável, justificando com base nos elementos anteriores dos Estudos Preliminares.}
+- (i) Explicitamente declarar que a contratação é viável ou que a contratação não é viável, justificando com base nos elementos anteriores dos Estudos Preliminares.
 
 ## Quadro 1 – Soluções de mercado
 
 - Quadro 1 – Soluções de mercado (produtos, fornecedores, fabricantes, etc) que atendem aos requisitos especificados (item III, vi)
 
-{ Tabela com 4 colunas: Produtos | Fornecedores | Fabricantes | Etc }
-
+|Produtos | Fornecedores | Fabricantes | Etc |
+|:--------------------------------|:---------------------|:------------------|:-----------------|
+|-|-|-|-|
