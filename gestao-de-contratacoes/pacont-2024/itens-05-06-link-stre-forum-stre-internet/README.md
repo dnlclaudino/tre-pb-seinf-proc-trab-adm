@@ -41,33 +41,43 @@
 
 </center>
 
-## Processos SEI
+## Processos SEI da Nova Contratação
 
-- Processo desta contratação: [0001319-96.2024.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=1784823)
-- Processos SEI relacionados:
-  - [0001259-26.2024.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=1783947) - Processo Principal da COINF para Gestão e Monitoramento das Aquisições em 2024 (PACONT2024) - ??????
-  - [0004089-38.2019.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=569544) - Pregão TRE-Pb nº 39/2018 (FL e RIX)
+- [0001319-96.2024.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=1784823) - Processo SEI da NOVA CONTRATAÇÃO (PACONT 2024 / Itens 05 e 06)
+
+## PROCESSOS SEI RELACIONADOS:
+
+  - [0004556-51.2018.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=375546) - Processo SEI da **Contratação para Atender às Demandas Do Tribunal Regional Eleitoral Da Paraíba**:
+    - **Pregão Eletrônico nº 39/2018**
+      - Do Serviço De Links De Internet (Dedicado E Compartilhado);
+      - Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto;
+  - [0004089-38.2019.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=569544) - A partir do Processo do **Pregão Eletrônico nº 39/2018** SEI nº [0004556-51.2018.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=375546), **foi solicitada**, nos presentes autos, a **contratação de 04 (quatro) unidades do item 3 (Circuito digital de comunicação de dados comvelocidade de 1Gbps) da ARP nº 03/2019 (0536538)** com vistas a manter o provimento do serviço de conexão entre o prédio sede do TRE-PB e o fórum eleitoral de João Pessoa - PB, com vigência a partir do dia 04 de agosto de 2019.
 
 
 ## Orientações
 
 - O processo de licitação observa as seguintes **FASES**, em sequência:
   - Preparatória
-    - De ⬜0% a 🟩🟩🟩30% do progresso;
   - Divulgação do edital de licitação
-    - De 🟩🟩🟩🟩30% a 🟩🟩🟩🟩🟩🟩50% do progresso;
   - Apresentação de propostas e lances
-    - De 🟩🟩🟩🟩🟩🟩50% a 🟩🟩🟩🟩🟩🟩🟩60% do progresso;
   - Julgamento
-    - De 🟩🟩🟩🟩🟩🟩🟩60% a 🟩🟩🟩🟩🟩🟩🟩🟩70% do progresso;
   - Habilitação
-    - De 🟩🟩🟩🟩🟩🟩🟩🟩70% a 🟩🟩🟩🟩🟩🟩🟩🟩🟩80% do progresso;
   - Recursal
-    - De 🟩🟩🟩🟩🟩🟩🟩🟩🟩80% a 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩90% do progresso;
   - Homologação
-    - De 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩90%  a 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩100% do progresso;
 
-- <b id="TIPO-SITUACAO">Situação</b>:
+- Cada **FASE** corresponderá aqui aos seguintes **PROGRESSOS**, em sequência:
+
+|        FASE         |               PROGRESSO                 |
+:--------------------:|:---------------------------------------------------------------------------:|
+|  **Preparatória**   | De ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜0% até 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 30%|
+|**Divulgação do edital<br>de licitação** | De 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 30% até 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50%|
+| **Apresentação de<br>propostas e lances** | De 🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% até 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ 60%|
+| **Julgamento**     | De 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜60% até 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 70%|
+| **Habilitação**    | De 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜70% até 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜ 80%|
+| **Recursal**       | De 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜80% até 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ 90%|
+| **Homologação**    | De 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜90% até 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩100%|
+
+- Cada processo de contratação pode estar em uma das <b id="TIPO-SITUACAO">Situações</b> abaixo, <u>em ordem (de "Não Iniciado" e "Concluído")</u>:
   - Não iniciado;
   - Iniciado;
   - Iniciado e no Prazo
