@@ -35,8 +35,9 @@
 
 - [Plano de Contratações](https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes)
   - [Anexo II](https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024) - Plano de Contratações de TIC 2024 
-    - Item 05: Do serviço de link de fibra óptica dedicado e ponto a ponto para comunicação de dados entre o STRE e o Fórum Eleitoral de João Pessoa/PB;
-    - Item 06: Do serviço de links (dedicado e compartilhado) para comunicação de dados entre a STRE e a Internet;
+    - **Unidade Demandante Responsável**: SEINF
+      - **Item 05**: Do serviço de link de fibra óptica dedicado e ponto a ponto para comunicação de dados entre o STRE e o Fórum Eleitoral de João Pessoa/PB;
+      - **Item 06**: Do serviço de links (dedicado e compartilhado) para comunicação de dados entre a STRE e a Internet;
 
 #### Processos SEI da Contratação
 
