@@ -1,3 +1,25 @@
+![center](../../../figuras/tre-pb-cabecalo-padrao-stic-coinf-seinf.png)
+
+<table align="right" border="0">
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://github.com/dnlclaudino/tre-pb-seinf-proc-trab-adm/#readme">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-casa3.png?raw=true" heigh="60" width="60"><br>Início do Repositório<br>Apoio Administartivo<br>à COINF/SEINF
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/dnlclaudino/tre-pb-seinf-proc-trab-adm/blob/master/gestao-de-contratacoes/README.md">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-casa2.png?raw=true" heigh="60" width="60"><br>Início da Gestão<br>de Contratações
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/pdf/pdf.png?raw=true" heigh="60" width="60"><br>Baixar em PDF
+      </a>
+    </td>
+  </tr>
+</table><br><br><br><br><br><br><br>
+
 # SAO - Orientações para Elaboração do ETP
 
 ## Diretrizes gerais para a elaboração dos estudos preliminares
