@@ -58,6 +58,8 @@
 - [16. Equipe de Apoio à Contratação](#16-equipe-de-apoio-à-contratação)
 - [17. Equipe de Gestão da Contratação](#17-equipe-de-gestão-da-contratação)
 - [18. Riscos do Processo de Contratação](#18-riscos-do-processo-de-contratação)
+- [Anexo I - Documentos de Apoio aos Estudos Preliminares](#anexo-i---documentos-de-apoio-aos-estudos-preliminares)
+  - [Figura: REDES DE COMUNICAÇÃO DE DADOS DO TRE-PB](#figura-redes-de-comunicação-de-dados-do-tre-pb)
 
 <!-- /TOC -->
 
@@ -162,3 +164,13 @@ contratados
 </center>
 
 ## 18. Riscos do Processo de Contratação
+
+## Anexo I - Documentos de Apoio aos Estudos Preliminares
+
+### Figura: REDES DE COMUNICAÇÃO DE DADOS DO TRE-PB
+
+<p align="center">
+
+![](./figuras/TRE-PB-STIC-COINF-SEINF-REDES%20DE%20COMUNICAÇÃO%20DE%20DADOS%20DO%20TRE-PB.png)
+
+</p>
