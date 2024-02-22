@@ -1,12 +1,11 @@
-# Plano Anual de Contratações do TRE-PB (2024)
-
-#### Objeto: Contratação Do Serviço De Links De Internet (Dedicado E Compartilhado) E Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto, Para Atender Às Demandas Do Tribunal Regional Eleitoral Da Paraíba
+# Contratação Do Serviço De Links De Internet (Dedicado E Compartilhado) E Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto, Para Atender Às Demandas Do Tribunal Regional Eleitoral Da Paraíba
 
 #### Referência à Gestão de Licitações e Contratos TRE-PB
 
-- [Plano de Contratações](https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes) 
-  - Item 05: Do serviço de link de fibra óptica dedicado e ponto a ponto para comunicação de dados entre o STRE e o Fórum Eleitoral de João Pessoa/PB;
-  - Item 06: Do serviço de links (dedicado e compartilhado) para comunicação de dados entre a STRE e a Internet;
+- [Plano de Contratações](https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes)
+  - [Anexo II](https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes/arquivos/2024/tre-pb-plano-de-contratacoes-de-tic-2024) - Plano de Contratações de TIC 2024 
+    - Item 05: Do serviço de link de fibra óptica dedicado e ponto a ponto para comunicação de dados entre o STRE e o Fórum Eleitoral de João Pessoa/PB;
+    - Item 06: Do serviço de links (dedicado e compartilhado) para comunicação de dados entre a STRE e a Internet;
 
 #### Processos SEI da Contratação
 
@@ -61,9 +60,12 @@
 |:---:|:-------------------------------:|
 |<img width="60px" src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/google-docs/icone-google-docs.png?raw=true">|⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%|
 
-</center>
+<br>
+<br>
 
-#### Orientações para Leitura deste Documento
+<u>**ORIENTAÇÕES PARA LEITURA DESTE DOCUMENTO**</u>
+
+</center>
 
 - O processo de licitação observa as seguintes **FASES**, em sequência:
   - Preparatória
