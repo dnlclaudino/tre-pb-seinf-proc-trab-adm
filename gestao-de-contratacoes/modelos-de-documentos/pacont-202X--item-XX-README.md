@@ -22,6 +22,15 @@
 
 # Contratação Do Serviço De Links STRE-Internet (dedicado e compartilhado) e STRE-Fórum JPA (ponto a ponto)
 
+<center>
+
+|                           Progresso Geral da Contratação                               |
+|:--------------------------------------------------------------------------------------:|
+|                             🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 10%                                |
+  Obs: Veja a seção <a href="#Orientações">Orientações<a> abaixo, para mais informações.
+
+</center>
+
 #### Referência à Gestão de Licitações e Contratos TRE-PB
 
 - [Plano de Contratações](https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes)
@@ -40,15 +49,6 @@
       - Do Serviço De Links De Internet (Dedicado E Compartilhado);
       - Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto;
   - [0004089-38.2019.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=569544) - A partir do Processo do **Pregão Eletrônico nº 39/2018** SEI nº [0004556-51.2018.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=375546), **foi solicitada**, nos presentes autos, a **contratação de 04 (quatro) unidades do item 3 (Circuito digital de comunicação de dados comvelocidade de 1Gbps) da ARP nº 03/2019 (0536538)** com vistas a manter o provimento do serviço de conexão entre o prédio sede do TRE-PB e o fórum eleitoral de João Pessoa - PB, com vigência a partir do dia 04 de agosto de 2019.
-
-<center>
-
-|                           Progresso Geral da Contratação                               |
-|:--------------------------------------------------------------------------------------:|
-|                             🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 10%                                |
-  Obs: Veja a seção <a href="#Orientações">Orientações<a> abaixo, para mais informações.
-
-</center>
 
 ## Elaboração dos Documentos de Planejamento da Contratação
 
