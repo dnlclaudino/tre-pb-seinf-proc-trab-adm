@@ -27,7 +27,7 @@
 |                           Progresso Geral da Contratação                               |
 |:--------------------------------------------------------------------------------------:|
 |                             🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 10%                                |
-  Obs: Veja a seção <a href="#Orientações">Orientações<a> abaixo, para mais informações.
+  Obs: Veja a seção <a href="#orientacoes">Orientações<a> abaixo, para mais informações.
 
 </center>
 
@@ -86,7 +86,7 @@
 <br>
 <br>
 
-<u>**ORIENTAÇÕES PARA LEITURA DESTE DOCUMENTO**</u>
+<u name="#orientacoes">**ORIENTAÇÕES PARA LEITURA DESTE DOCUMENTO**</u>
 
 </center>
 
@@ -111,7 +111,7 @@
 | **Recursal**       | De 🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜80% até 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ 90%|
 | **Homologação**    | De 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜90% até 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩100%|
 
-- Cada processo de contratação pode estar em uma das <b id="TIPO-SITUACAO">Situações</b> abaixo, <u>em ordem (de "Não Iniciado" e "Concluído")</u>:
+- Cada processo de contratação pode estar em uma das <b id="TIPO-SITUACAO">Situações</b> abaixo, <u>em ordem (de "Não Iniciado" até "Concluído")</u>:
   - Não iniciado;
   - Iniciado;
   - Iniciado e no Prazo
