@@ -1,4 +1,26 @@
-# Contratação Do Serviço De Links De Internet (Dedicado E Compartilhado) E Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto, Para Atender Às Demandas Do Tribunal Regional Eleitoral Da Paraíba
+![center](../../figuras/tre-pb-cabecalo-padrao-stic-coinf-seinf.png)
+
+<table align="right" border="0">
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://github.com/dnlclaudino/tre-pb-seinf-proc-trab-adm/#readme">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-casa3.png?raw=true" heigh="60" width="60"><br>Início do Repositório<br>Apoio Administartivo<br>à COINF/SEINF
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/dnlclaudino/tre-pb-seinf-proc-trab-adm/blob/master/gestao-de-contratacoes/README.md">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones/icone-casa2.png?raw=true" heigh="60" width="60"><br>Início da Gestão<br>de Contratações
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="">
+        <img src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/pdf/pdf.png?raw=true" heigh="60" width="60"><br>Baixar em PDF
+      </a>
+    </td>
+  </tr>
+</table><br><br><br><br><br><br><br>
+
+# Contratação Do Serviço De Links STRE-Internet (dedicado e compartilhado) e STRE-Fórum JPA (ponto a ponto)
 
 #### Referência à Gestão de Licitações e Contratos TRE-PB
 
