@@ -34,7 +34,7 @@ Este repositório contém a gestão do conhecimento dos **processos de trabalho 
 |5|[Gestão de Contratos](./gestao-de-contratos/README.md)|
 |6|[Gestão de Atas de Registro de Preços(ARPs)](./gestao-de-arps/README.md)|
 |7|[Gestão de Riscos](./gestao-de-riscos/README.md)|
-|8|[Gestão do Patrimônio](./gestao-do-patrimonio/README.md)|
+|8|[Gestão do Patrimônio e Manutenção Predial](./gestao-do-patrimonio-e-manutancao-predial/README.md)|
 |9|Gestão de Integridade|
 |10|Gestão Documental e da Memória|
 |11|[Gestão de Processos de Trabalho](./gestao-de-processos-de-trabalho/README.md)|
