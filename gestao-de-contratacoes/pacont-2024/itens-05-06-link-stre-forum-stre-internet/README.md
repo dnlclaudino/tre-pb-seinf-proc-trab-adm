@@ -1,18 +1,40 @@
 # Plano Anual de Contratações do TRE-PB (2024)
 
-## Objeto: Contratação Do Serviço De Links De Internet (Dedicado E Compartilhado) E Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto, Para Atender Às Demandas Do Tribunal Regional Eleitoral Da Paraíba
+#### Objeto: Contratação Do Serviço De Links De Internet (Dedicado E Compartilhado) E Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto, Para Atender Às Demandas Do Tribunal Regional Eleitoral Da Paraíba
+
+#### Referência à Gestão de Licitações e Contratos TRE-PB
+
+- [Plano de Contratações](https://www.tre-pb.jus.br/transparencia-e-prestacao-de-contas/gestao-de-contratacoes/planos-de-contratacoes) 
+  - Item 05: Do serviço de link de fibra óptica dedicado e ponto a ponto para comunicação de dados entre o STRE e o Fórum Eleitoral de João Pessoa/PB;
+  - Item 06: Do serviço de links (dedicado e compartilhado) para comunicação de dados entre a STRE e a Internet;
+
+#### Processos SEI da Contratação
+
+- [0001319-96.2024.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=1784823)
+
+#### Processos SEI Relacionados ao Processo de Contratação
+
+  - [0004556-51.2018.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=375546) - Em 2018, ocorreu a última licitação referente a contratação de links **STRE-internet** e **STRE-Fórum JPA**
+    - **Pregão Eletrônico nº 39/2018**
+      - Do Serviço De Links De Internet (Dedicado E Compartilhado);
+      - Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto;
+  - [0004089-38.2019.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=569544) - A partir do Processo do **Pregão Eletrônico nº 39/2018** SEI nº [0004556-51.2018.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=375546), **foi solicitada**, nos presentes autos, a **contratação de 04 (quatro) unidades do item 3 (Circuito digital de comunicação de dados comvelocidade de 1Gbps) da ARP nº 03/2019 (0536538)** com vistas a manter o provimento do serviço de conexão entre o prédio sede do TRE-PB e o fórum eleitoral de João Pessoa - PB, com vigência a partir do dia 04 de agosto de 2019.
 
 <center>
 
 |                           Progresso Geral da Contratação                               |
 |:--------------------------------------------------------------------------------------:|
 |                             🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 10%                                |
+  Obs: Veja a seção <a href="#Orientações">Orientações<a> abaixo, para mais informações.
 
 </center>
 
 ## Elaboração dos Documentos de Planejamento da Contratação
 
+
 <center>
+
+### Documento de Formalização da Demanda (DFD)
 
 ||                           Progresso da Elaboração do Documento                         |
 |:---:|:--------------------------------------------------------------------------------------:|
@@ -41,20 +63,7 @@
 
 </center>
 
-## Processos SEI da Nova Contratação
-
-- [0001319-96.2024.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=1784823) - Processo SEI da NOVA CONTRATAÇÃO (PACONT 2024 / Itens 05 e 06)
-
-## PROCESSOS SEI RELACIONADOS:
-
-  - [0004556-51.2018.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=375546) - Processo SEI da **Contratação para Atender às Demandas Do Tribunal Regional Eleitoral Da Paraíba**:
-    - **Pregão Eletrônico nº 39/2018**
-      - Do Serviço De Links De Internet (Dedicado E Compartilhado);
-      - Do Serviço De Comunicação De Dados Dedicado Ponto A Ponto;
-  - [0004089-38.2019.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=569544) - A partir do Processo do **Pregão Eletrônico nº 39/2018** SEI nº [0004556-51.2018.6.15.8000](https://sei.tre-pb.jus.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=375546), **foi solicitada**, nos presentes autos, a **contratação de 04 (quatro) unidades do item 3 (Circuito digital de comunicação de dados comvelocidade de 1Gbps) da ARP nº 03/2019 (0536538)** com vistas a manter o provimento do serviço de conexão entre o prédio sede do TRE-PB e o fórum eleitoral de João Pessoa - PB, com vigência a partir do dia 04 de agosto de 2019.
-
-
-## Orientações
+#### Orientações para Leitura deste Documento
 
 - O processo de licitação observa as seguintes **FASES**, em sequência:
   - Preparatória
