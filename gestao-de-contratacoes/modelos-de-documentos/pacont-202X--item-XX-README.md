@@ -53,7 +53,6 @@
 
 ## Elaboração dos Documentos de Planejamento da Contratação
 
-
 <center>
 
 ### Documento de Formalização da Demanda (DFD)
@@ -61,28 +60,28 @@
 ||                           Progresso da Elaboração do Documento                         |
 |:---:|:--------------------------------------------------------------------------------------:|
 |[<img width="60px" src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/google-docs/icone-google-docs.png?raw=true">]()|🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100%|
-
+|**Consulte:**|[Orientações da SAO para Elaboração de DFD]()|
 
 ### Estudos Técnicos Preliminares
 
 ||Progresso da Elaboração do Documento|
 |:---:|:-------------------------------:|
 |[<img width="60px" src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/google-docs/icone-google-docs.png?raw=true">](./ETP.md)|⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%|
-
+|**Consulte:**|[Orientações da SAO para Elaboração de ETP](../orientacoes-elaboracao-documentos-dfd-etp-tr-grc/sao-orientacoes-etp.md)|
 
 ### Termo de Referência
 
 ||Progresso da Elaboração do Documento|
 |:---:|:-------------------------------:|
 |<img width="60px" src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/google-docs/icone-google-docs.png?raw=true">|⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%|
-
+|**Consulte:**|[Orientações da SAO para Elaboração de TR]()|
 
 ### Plano de Gestão de Riscos
 
 ||Progresso da Elaboração do Documento|
 |:---:|:-------------------------------:|
 |<img width="60px" src="https://github.com/dnlclaudino/imagens/blob/master/icones-aplicativos/google-docs/icone-google-docs.png?raw=true">|⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%|
-
+|**Consulte:**|- [Orientações da SAO para Elaboração de TR]()<br>- [Metodologia de gestão de Risco do TRE-PB]()<br>- [Planilha de Gestão de Riscos do TRE-PB]()|
 
 <br>
 <br>
